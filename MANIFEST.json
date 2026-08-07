@@ -1,0 +1,123 @@
+{
+  "package": "fabin-msc-structural-study-system-bootstrap",
+  "version": "0.2",
+  "validation": {
+    "all_json_parse": true,
+    "nma_unit_count": 7,
+    "nma_total_hours": 45,
+    "unit_ids_unique": true,
+    "readme_intentionally_omitted": true
+  },
+  "files": [
+    {
+      "path": "BOOTSTRAP_UPLOAD_NOTE.md",
+      "bytes": 449,
+      "sha256": "312632a8c5aba50a4869f8ce339dc15f72cdf105e36bab3c6e0a1a77fabae01b"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 667,
+      "sha256": "533c6685dbf876027233d52b4de5d215ab5d65698b7b39a7d4d80e3f159de070"
+    },
+    {
+      "path": "PROJECT_PLAN.md",
+      "bytes": 1634,
+      "sha256": "412d5db1aeb6eff01a4b8996e27a91891268792574423668854ca5f5365d2d4e"
+    },
+    {
+      "path": "PUBLIC_SOURCE_POLICY.md",
+      "bytes": 998,
+      "sha256": "377df51e2c76339dc88b5ef82493786cff065247602836daf7ecb99595fd5ee1"
+    },
+    {
+      "path": "catalog/program.json",
+      "bytes": 481,
+      "sha256": "1a68baabdaf338a04f43fdd37edbb9acd5afdec555ef1a5d588bc9ecfd86ce20"
+    },
+    {
+      "path": "catalog/semesters.json",
+      "bytes": 605,
+      "sha256": "7ee9f6cdce42ad50c9e5b71c1f5e1fd16d758f7be976bbe6c85ad33dac0755ab"
+    },
+    {
+      "path": "catalog/subjects.json",
+      "bytes": 4367,
+      "sha256": "ce40828628b32cc4ba3893fbf557747ed9a8a97553a66b46c99cdd2a4e594045"
+    },
+    {
+      "path": "schemas/question.schema.json",
+      "bytes": 940,
+      "sha256": "2d0c17081b74d5834d021c95b165d721ab9bc105ac8e15b327e53c07854823e5"
+    },
+    {
+      "path": "scripts/validate_data.py",
+      "bytes": 452,
+      "sha256": "c987fa05c3c8f0c95fdfe8b28e2f6e61d233d753aaf5e3b783f84aa27f91e872"
+    },
+    {
+      "path": "sources/source_registry.json",
+      "bytes": 1514,
+      "sha256": "ad17edadfbcc1a50fed3dddfe40b837bf2c6f862e8a3b2dc67bd45772e23f323"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/questions/index.json",
+      "bytes": 51,
+      "sha256": "c41cdc3023860fa1cab7f8bc6a146ea5ec9803d2b672e923638b3944a50ac3f8"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/solutions/index.json",
+      "bytes": 51,
+      "sha256": "456594fb0e0ec7c474126c722e47a5d459088e4b4a586eb0e11295780a4346bd"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/source-text/official-syllabus-pages-16-17.md",
+      "bytes": 900,
+      "sha256": "58d6b7f0e6a9af2212bad565fbb3287447079422ebff72fe846c28bca9bc0a77"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/subject.json",
+      "bytes": 840,
+      "sha256": "85a253008cdd0dd40b3f1b73d128de383ca406670ce3692fcb2f7d20d93c4886"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/syllabus.json",
+      "bytes": 2504,
+      "sha256": "bece93570c2f324964c3e7d8721863a451ae06c9194733a53c0c6cc0f30fa8a1"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/units/NMA-U01.json",
+      "bytes": 1333,
+      "sha256": "ec3fa456a8a12dbb1b75379b40f0bfcde4acab933a843c1d7c0993b42c63b7cf"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/units/NMA-U02.json",
+      "bytes": 1383,
+      "sha256": "bb88ffeab3d28c93029dbdb3f77fb9f567ed2880d760b45935d5d103bd8f1160"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/units/NMA-U03.json",
+      "bytes": 1422,
+      "sha256": "4c4271ea4bd760ab6287d0f22ccee6986dd965ca5983abeef48bd7dadcef599b"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/units/NMA-U04.json",
+      "bytes": 985,
+      "sha256": "f511687bbfda2e9f2d7ee882a2c4de74e6ed408258c038244bf09b8635f75fa0"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/units/NMA-U05.json",
+      "bytes": 2471,
+      "sha256": "2aa3308c1580fa67aee5c10802c1e7cef4d91b7ba7a84575d926f7a79f4270de"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/units/NMA-U06.json",
+      "bytes": 1725,
+      "sha256": "8749eb2b3a0e803991e8e02cbd9ca3a55c2e6d3fee7ca0b0fe058c9d44436ff0"
+    },
+    {
+      "path": "subjects/numerical-methods-and-analysis/units/NMA-U07.json",
+      "bytes": 841,
+      "sha256": "d6316417e15a9e0ad9f6dbe68f31fa28c0348c4c21adc61b4e587d364a4839ef"
+    }
+  ]
+}

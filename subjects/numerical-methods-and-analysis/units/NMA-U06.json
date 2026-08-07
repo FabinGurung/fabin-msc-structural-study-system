@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "unit_id": "NMA-U06",
+  "official_title": "Ordinary and Partial Differential Equations",
+  "allocated_hours": 8,
+  "topics": [
+    {
+      "topic_id": "NMA-U06-T01",
+      "official_text": "Initial value problem"
+    },
+    {
+      "topic_id": "NMA-U06-T02",
+      "official_text": "Picard's method"
+    },
+    {
+      "topic_id": "NMA-U06-T03",
+      "official_text": "Taylor series method"
+    },
+    {
+      "topic_id": "NMA-U06-T04",
+      "official_text": "Runge-Kutta first, Second and fourth order methods"
+    },
+    {
+      "topic_id": "NMA-U06-T05",
+      "official_text": "Adaptive Runge-Kutta method of fifth order"
+    },
+    {
+      "topic_id": "NMA-U06-T06",
+      "official_text": "Derivation of Runge-Kutta first and second order methods"
+    },
+    {
+      "topic_id": "NMA-U06-T07",
+      "official_text": "Boundary value problems-shooting methods for linear differential equations"
+    },
+    {
+      "topic_id": "NMA-U06-T08",
+      "official_text": "Multistep methods"
+    },
+    {
+      "topic_id": "NMA-U06-T09",
+      "official_text": "Milne's and Adams-Bashforth predictor and corrector methods"
+    },
+    {
+      "topic_id": "NMA-U06-T10",
+      "official_text": "Relaxation method"
+    },
+    {
+      "topic_id": "NMA-U06-T11",
+      "official_text": "Solution of boundary value problems by different methods"
+    },
+    {
+      "topic_id": "NMA-U06-T12",
+      "official_text": "Numerical solution of Partial differential equations (Elliptic, Parabolic, Hyperbolic)"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      17
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

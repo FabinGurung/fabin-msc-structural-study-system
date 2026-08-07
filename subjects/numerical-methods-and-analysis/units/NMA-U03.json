@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "unit_id": "NMA-U03",
+  "official_title": "Interpolation and Numerical Differentiation",
+  "allocated_hours": 6,
+  "topics": [
+    {
+      "topic_id": "NMA-U03-T01",
+      "official_text": "Newton's Interpolation (forward, backward)"
+    },
+    {
+      "topic_id": "NMA-U03-T02",
+      "official_text": "Polynomial interpolation and its existence"
+    },
+    {
+      "topic_id": "NMA-U03-T03",
+      "official_text": "Lagrange and Newton form of interpolating Polynomial"
+    },
+    {
+      "topic_id": "NMA-U03-T04",
+      "official_text": "Divided difference and recursive property"
+    },
+    {
+      "topic_id": "NMA-U03-T05",
+      "official_text": "Inverse interpolation"
+    },
+    {
+      "topic_id": "NMA-U03-T06",
+      "official_text": "Error in Polynomial interpolation"
+    },
+    {
+      "topic_id": "NMA-U03-T07",
+      "official_text": "First and Second derivative formulae via interpolation Polynomials"
+    },
+    {
+      "topic_id": "NMA-U03-T08",
+      "official_text": "Least square method"
+    },
+    {
+      "topic_id": "NMA-U03-T09",
+      "official_text": "Spline Interpolation"
+    },
+    {
+      "topic_id": "NMA-U03-T10",
+      "official_text": "Monte Carlo Method"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      16
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

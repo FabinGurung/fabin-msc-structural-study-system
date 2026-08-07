@@ -1,0 +1,200 @@
+{
+  "schema_version": "0.1.0",
+  "program_id": "PU-MSC-STRUCT",
+  "compulsory_courses": [
+    {
+      "course_code": "STR 501",
+      "title": "Advanced Structural Analysis",
+      "credits": 4,
+      "semester": 1
+    },
+    {
+      "course_code": "STR 502",
+      "title": "Dynamics of Structures",
+      "credits": 3,
+      "semester": 1
+    },
+    {
+      "course_code": "STR 503",
+      "title": "Solid Mechanics",
+      "credits": 3,
+      "semester": 1
+    },
+    {
+      "course_code": "MTH 504",
+      "title": "Numerical Methods and Analysis",
+      "credits": 3,
+      "semester": 1
+    },
+    {
+      "course_code": "GTH 505",
+      "title": "Foundation Analysis and Design",
+      "credits": 4,
+      "semester": 1
+    },
+    {
+      "course_code": "STR 506",
+      "title": "Finite Element Method",
+      "credits": 3,
+      "semester": 2
+    },
+    {
+      "course_code": "STR 507",
+      "title": "Earthquake Resistant Design",
+      "credits": 3,
+      "semester": 2
+    },
+    {
+      "course_code": "ACT 508",
+      "title": "Advanced Concrete Technology",
+      "credits": 3,
+      "semester": 2
+    },
+    {
+      "course_code": "STR 509",
+      "title": "Advanced Structural Design",
+      "credits": 4,
+      "semester": 3
+    },
+    {
+      "course_code": "STR 510",
+      "title": "Structural Engineering Laboratory",
+      "credits": 3,
+      "semester": 3
+    },
+    {
+      "course_code": "STR 511",
+      "title": "Thesis",
+      "credits": 12,
+      "semester": 4
+    }
+  ],
+  "elective_slots": [
+    {
+      "semester": 2,
+      "slots": [
+        "Elective I",
+        "Elective II"
+      ],
+      "credits_each": 3
+    },
+    {
+      "semester": 3,
+      "slots": [
+        "Elective III",
+        "Elective IV",
+        "Elective V"
+      ],
+      "credits_each": 3
+    }
+  ],
+  "elective_catalog": {
+    "elective_I_II": [
+      {
+        "course_code": "STR 601",
+        "title": "Applied Seismology"
+      },
+      {
+        "course_code": "STR 602",
+        "title": "Rock Mechanics"
+      },
+      {
+        "course_code": "STR 603",
+        "title": "Theory of Plates and Shells"
+      },
+      {
+        "course_code": "CAD 604",
+        "title": "Computer Aided Design"
+      },
+      {
+        "course_code": "MSE 605",
+        "title": "Research Methodology"
+      },
+      {
+        "course_code": "SHA 606",
+        "title": "Seismic Hazard Analysis"
+      },
+      {
+        "course_code": "DSM 607",
+        "title": "Disaster Management"
+      }
+    ],
+    "elective_III_IV_V": [
+      {
+        "course_code": "STR 701",
+        "title": "Bridge Analysis and Design"
+      },
+      {
+        "course_code": "MSE 702",
+        "title": "Pre-Stressed Concrete"
+      },
+      {
+        "course_code": "MSE 703",
+        "title": "Design of Industrial structure"
+      },
+      {
+        "course_code": "HYD 704",
+        "title": "Hydraulic Structures"
+      },
+      {
+        "course_code": "MSE 705",
+        "title": "Design of high rise building"
+      },
+      {
+        "course_code": "MSE 706",
+        "title": "Geotechnical Earthquake Engineering"
+      },
+      {
+        "course_code": "STR 707",
+        "title": "Design of Thin Shell Structure"
+      },
+      {
+        "course_code": "STR 708",
+        "title": "Design of Masonry Structures"
+      },
+      {
+        "course_code": "STR 709",
+        "title": "Repair and Rehabilitation of Structures"
+      },
+      {
+        "course_code": "STR 710",
+        "title": "Fracture Mechanics of Concrete"
+      },
+      {
+        "course_code": "STR 711",
+        "title": "Health Monitoring of Structures"
+      },
+      {
+        "course_code": "STR 712",
+        "title": "Advanced Design of Steel Structures"
+      },
+      {
+        "course_code": "STR 713",
+        "title": "Non-Linear Analysis of Structures"
+      },
+      {
+        "course_code": "STR 714",
+        "title": "Optimization in Structural Design"
+      },
+      {
+        "course_code": "STR 715",
+        "title": "Seismic Assessments and Retrofitting of Structures"
+      },
+      {
+        "course_code": "SRA 716",
+        "title": "Seismic Risk Analysis"
+      },
+      {
+        "course_code": "STR 717",
+        "title": "Tunnel Engineering"
+      }
+    ]
+  },
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      7,
+      8
+    ]
+  }
+}

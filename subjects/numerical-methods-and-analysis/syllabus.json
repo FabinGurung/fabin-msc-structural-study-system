@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "official_total_hours": 45,
+  "units": [
+    {
+      "unit_id": "NMA-U01",
+      "official_title": "Introduction",
+      "allocated_hours": 5
+    },
+    {
+      "unit_id": "NMA-U02",
+      "official_title": "Roots of Equation",
+      "allocated_hours": 6
+    },
+    {
+      "unit_id": "NMA-U03",
+      "official_title": "Interpolation and Numerical Differentiation",
+      "allocated_hours": 6
+    },
+    {
+      "unit_id": "NMA-U04",
+      "official_title": "Numerical Integration",
+      "allocated_hours": 6
+    },
+    {
+      "unit_id": "NMA-U05",
+      "official_title": "Solution of Linear & Non-linear Equations",
+      "allocated_hours": 8
+    },
+    {
+      "unit_id": "NMA-U06",
+      "official_title": "Ordinary and Partial Differential Equations",
+      "allocated_hours": 8
+    },
+    {
+      "unit_id": "NMA-U07",
+      "official_title": "Special Functions",
+      "allocated_hours": 6
+    }
+  ],
+  "practical_works": [
+    "Write a program to find the roots of an equation f(x) = 0 using various method.",
+    "Write a program to find the integral of a function using various method.",
+    "Write a program to solve the system of equations Ax = b in various algorithm.",
+    "Write a program to find the largest (or smallest) Eigen value and corresponding eigen vector of a square matrix using power (or inverse power) method.",
+    "Write a program to solve first and second order ordinary differential equations (initial value problem) using Runge-Kutta fourth order method.",
+    "Write a program to solve first and second order ordinary differential equations (initial value problem) using adaptive Runge-Kutta method."
+  ],
+  "references_verbatim": [
+    "Veerarjan, T and Ramachandran, T. Numerical methods with programming in 'C', Second Edition, Tata McGraw-Hill Publishing Co. Ltd. (2007).",
+    "Rajasekaran S, 'Numerical Methods in Science and Engineering-A practical approach', AH wheeler & Co.",
+    "Grewal B.S., 'Numerical methods in Engineering and Science', Khanna Publications.",
+    "Sankara Rao K, Numerical Methods for Scientists and Engineers - 3rd edition, Prentice Hall of India Private Ltd, New Delhi, (2007).",
+    "Chopra, S. C and Canale, R. P. 'Numerical Methods for Engineers', 5th Edition, Tata McGraw-Hill, New Delhi, 2007."
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      16,
+      17
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

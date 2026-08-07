@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+      "title": "Structure Syllabus_Final.pdf",
+      "source_type": "OFFICIAL_CURRICULUM_SCAN",
+      "location": "USER_UPLOADED_SOURCE",
+      "pages": 25,
+      "notes": "Program hierarchy from pp. 7-8; MTH 504 syllabus from pp. 16-17. Preserve original scan as evidence outside public website data."
+    },
+    {
+      "source_id": "SRC-GDRIVE-NMA-QP-COMPILATION",
+      "title": "Question paper of Numerical Methods and Analysis.pdf",
+      "source_type": "EXAM_PAPER_COMPILATION_SCAN",
+      "location": "PRIVATE_GOOGLE_DRIVE",
+      "pages": 6,
+      "ingestion_status": "READY_FOR_EXTRACTION"
+    },
+    {
+      "source_id": "SRC-GDRIVE-NMA-QP-2025",
+      "title": "2025QuestionPaper.pdf",
+      "source_type": "EXAM_PAPER_SCAN",
+      "location": "PRIVATE_GOOGLE_DRIVE",
+      "pages": 5,
+      "ingestion_status": "READY_FOR_EXTRACTION"
+    },
+    {
+      "source_id": "SRC-GDRIVE-NMA-EXAM",
+      "title": "Exam_Numerical Methods and Analysis.pdf",
+      "source_type": "EXAM_PAPER_SCAN",
+      "location": "PRIVATE_GOOGLE_DRIVE",
+      "pages": 1,
+      "ingestion_status": "READY_FOR_EXTRACTION"
+    },
+    {
+      "source_id": "SRC-GDRIVE-MSC-5-BUNDLES",
+      "title": "MSc_Structure_5_Bundles.pdf",
+      "source_type": "MULTI_SUBJECT_EXAM_BUNDLE_SCAN",
+      "location": "PRIVATE_GOOGLE_DRIVE",
+      "pages": 115,
+      "ingestion_status": "INDEX_FIRST_THEN_EXTRACT_NMA_ONLY"
+    }
+  ]
+}

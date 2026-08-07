@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Numerical Methods Question Record",
+  "type": "object",
+  "required": [
+    "question_id",
+    "subject_id",
+    "source",
+    "question",
+    "verification_status"
+  ],
+  "properties": {
+    "question_id": {
+      "type": "string"
+    },
+    "subject_id": {
+      "const": "MTH504-NMA"
+    },
+    "source": {
+      "type": "object"
+    },
+    "classification": {
+      "type": "object"
+    },
+    "question": {
+      "type": "object"
+    },
+    "solution_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "figure_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verification_status": {
+      "enum": [
+        "RAW",
+        "TRANSCRIBED",
+        "CLASSIFIED",
+        "SOLVED",
+        "VERIFIED",
+        "UNCLEAR_SOURCE",
+        "CONFLICTING_SOURCES"
+      ]
+    }
+  }
+}

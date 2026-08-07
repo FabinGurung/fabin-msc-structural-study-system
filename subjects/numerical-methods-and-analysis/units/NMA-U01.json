@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "unit_id": "NMA-U01",
+  "official_title": "Introduction",
+  "allocated_hours": 5,
+  "topics": [
+    {
+      "topic_id": "NMA-U01-T01",
+      "official_text": "Introduction"
+    },
+    {
+      "topic_id": "NMA-U01-T02",
+      "official_text": "History & Importance of Numerical methods"
+    },
+    {
+      "topic_id": "NMA-U01-T03",
+      "official_text": "Approximation and Errors in computations"
+    },
+    {
+      "topic_id": "NMA-U01-T04",
+      "official_text": "Analog and Numeric Data"
+    },
+    {
+      "topic_id": "NMA-U01-T05",
+      "official_text": "Floating point representation and errors-Normalized floating-point forms"
+    },
+    {
+      "topic_id": "NMA-U01-T06",
+      "official_text": "Errors in representing numbers"
+    },
+    {
+      "topic_id": "NMA-U01-T07",
+      "official_text": "Floating point machine number and machine epsilon"
+    },
+    {
+      "topic_id": "NMA-U01-T08",
+      "official_text": "Loss of significance and its avoidance"
+    },
+    {
+      "topic_id": "NMA-U01-T09",
+      "official_text": "Use and importance of Computer Programming in Numerical Methods"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      16
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

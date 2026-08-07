@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1.0",
+  "program_id": "PU-MSC-STRUCT",
+  "semesters": [
+    {
+      "semester_id": "PU-MSC-STRUCT-S1",
+      "number": 1,
+      "label": "Semester I"
+    },
+    {
+      "semester_id": "PU-MSC-STRUCT-S2",
+      "number": 2,
+      "label": "Semester II"
+    },
+    {
+      "semester_id": "PU-MSC-STRUCT-S3",
+      "number": 3,
+      "label": "Semester III"
+    },
+    {
+      "semester_id": "PU-MSC-STRUCT-S4",
+      "number": 4,
+      "label": "Semester IV"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      7,
+      8
+    ]
+  }
+}

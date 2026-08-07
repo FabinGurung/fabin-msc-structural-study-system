@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "unit_id": "NMA-U05",
+  "official_title": "Solution of Linear & Non-linear Equations",
+  "allocated_hours": 8,
+  "topics": [
+    {
+      "topic_id": "NMA-U05-T01",
+      "official_text": "Gaussian elimination and back substitution-partial and complete pivoting"
+    },
+    {
+      "topic_id": "NMA-U05-T02",
+      "official_text": "Tridiagonal and pentadiagonal banded systems"
+    },
+    {
+      "topic_id": "NMA-U05-T03",
+      "official_text": "Thomas algorithm"
+    },
+    {
+      "topic_id": "NMA-U05-T04",
+      "official_text": "Doolittle, Cholesky and Crout LU decomposition methods"
+    },
+    {
+      "topic_id": "NMA-U05-T05",
+      "official_text": "Jacobi and Gauss-Seidel iterative methods and convergence theorems"
+    },
+    {
+      "topic_id": "NMA-U05-T06",
+      "official_text": "Power (and inverse power) method of obtaining largest (smallest) eigenvalue and corresponding eigenvector"
+    },
+    {
+      "topic_id": "NMA-U05-T07",
+      "official_text": "Iterative methods"
+    },
+    {
+      "topic_id": "NMA-U05-T08",
+      "official_text": "Numerical Analysis"
+    },
+    {
+      "topic_id": "NMA-U05-T09",
+      "official_text": "Error estimates"
+    },
+    {
+      "topic_id": "NMA-U05-T10",
+      "official_text": "Solution of algebraic and transcendental equations"
+    },
+    {
+      "topic_id": "NMA-U05-T11",
+      "official_text": "Iterative algorithms"
+    },
+    {
+      "topic_id": "NMA-U05-T12",
+      "official_text": "Convergence"
+    },
+    {
+      "topic_id": "NMA-U05-T13",
+      "official_text": "Newton Raphson Procedure"
+    },
+    {
+      "topic_id": "NMA-U05-T14",
+      "official_text": "Solution of polynomial equations"
+    },
+    {
+      "topic_id": "NMA-U05-T15",
+      "official_text": "Methods of elimination"
+    },
+    {
+      "topic_id": "NMA-U05-T16",
+      "official_text": "Method of relaxation"
+    },
+    {
+      "topic_id": "NMA-U05-T17",
+      "official_text": "Ill-conditioned systems"
+    },
+    {
+      "topic_id": "NMA-U05-T18",
+      "official_text": "Computing the inverse matrix"
+    },
+    {
+      "topic_id": "NMA-U05-T19",
+      "official_text": "Eigenvalues and eigenvectors"
+    },
+    {
+      "topic_id": "NMA-U05-T20",
+      "official_text": "Matrix decomposition"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      16
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

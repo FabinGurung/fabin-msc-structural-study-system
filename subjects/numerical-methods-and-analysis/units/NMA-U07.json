@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "unit_id": "NMA-U07",
+  "official_title": "Special Functions",
+  "allocated_hours": 6,
+  "topics": [
+    {
+      "topic_id": "NMA-U07-T01",
+      "official_text": "Legendre's formula"
+    },
+    {
+      "topic_id": "NMA-U07-T02",
+      "official_text": "Generating functions for Legendre's polynomials and recurrence formulae"
+    },
+    {
+      "topic_id": "NMA-U07-T03",
+      "official_text": "Bessel's function"
+    },
+    {
+      "topic_id": "NMA-U07-T04",
+      "official_text": "Recurrence formula"
+    },
+    {
+      "topic_id": "NMA-U07-T05",
+      "official_text": "Bessel's function of integral order"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      17
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "unit_id": "NMA-U02",
+  "official_title": "Roots of Equation",
+  "allocated_hours": 6,
+  "topics": [
+    {
+      "topic_id": "NMA-U02-T01",
+      "official_text": "Introduction"
+    },
+    {
+      "topic_id": "NMA-U02-T02",
+      "official_text": "Methods of solutions"
+    },
+    {
+      "topic_id": "NMA-U02-T03",
+      "official_text": "Horner's Rule"
+    },
+    {
+      "topic_id": "NMA-U02-T04",
+      "official_text": "Locating roots of f(x)=0"
+    },
+    {
+      "topic_id": "NMA-U02-T05",
+      "official_text": "Bisection method and convergence analysis"
+    },
+    {
+      "topic_id": "NMA-U02-T06",
+      "official_text": "Newton's method and convergence analysis"
+    },
+    {
+      "topic_id": "NMA-U02-T07",
+      "official_text": "Failure of Newton's method due to bad starting points"
+    },
+    {
+      "topic_id": "NMA-U02-T08",
+      "official_text": "Modification of Newton's method for multiple roots"
+    },
+    {
+      "topic_id": "NMA-U02-T09",
+      "official_text": "Newton's method for System of Non-linear equations"
+    },
+    {
+      "topic_id": "NMA-U02-T10",
+      "official_text": "Secant method and convergence analysis"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      16
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

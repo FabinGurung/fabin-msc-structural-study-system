@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "program_id": "PU-MSC-STRUCT",
+  "official_name": "Master of Science in Structural Engineering",
+  "institution": "Pokhara University",
+  "faculty": "Faculty of Science and Technology",
+  "curriculum_year": 2017,
+  "normal_duration_semesters": 4,
+  "coursework_credit_hours": 48,
+  "thesis_credit_hours": 12,
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ]
+  }
+}

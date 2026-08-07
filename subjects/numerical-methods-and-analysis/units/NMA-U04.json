@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "unit_id": "NMA-U04",
+  "official_title": "Numerical Integration",
+  "allocated_hours": 6,
+  "topics": [
+    {
+      "topic_id": "NMA-U04-T01",
+      "official_text": "Trapezoidal, Simpson's and adaptive Simpson rules and Error analysis"
+    },
+    {
+      "topic_id": "NMA-U04-T02",
+      "official_text": "Romberg's method"
+    },
+    {
+      "topic_id": "NMA-U04-T03",
+      "official_text": "Two and three-point Gaussian quadrature formula"
+    },
+    {
+      "topic_id": "NMA-U04-T04",
+      "official_text": "Double integrals using trapezoidal and Simpson's rules"
+    },
+    {
+      "topic_id": "NMA-U04-T05",
+      "official_text": "Euler-Maclaurin series"
+    },
+    {
+      "topic_id": "NMA-U04-T06",
+      "official_text": "Newton-cotes formula"
+    }
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      16
+    ]
+  },
+  "verification_status": "TRANSCRIBED_FROM_SCAN"
+}

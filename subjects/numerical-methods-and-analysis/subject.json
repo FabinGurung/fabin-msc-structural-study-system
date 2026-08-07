@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "subject_id": "MTH504-NMA",
+  "course_code": "MTH 504",
+  "official_title": "Numerical Methods and Analysis",
+  "semester": 1,
+  "credits": 3,
+  "contact_pattern": "3-0-2",
+  "official_objective": "The course aims to introduce numerical methods used for the solution of engineering problems. The course emphasizes algorithm development and programming and application to realistic engineering problems.",
+  "expected_learning_outcomes": [
+    "Identify the need and application of numerical methods in structural engineering.",
+    "Use various numerical techniques for solutions of structural related problems.",
+    "Solve different linear and non-linear structural related equations."
+  ],
+  "source": {
+    "source_id": "SRC-PU-MSC-STRUCT-CURRICULUM-2017",
+    "pages": [
+      16,
+      17
+    ]
+  }
+}
