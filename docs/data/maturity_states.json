@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "states": [
+    {
+      "id": "REGISTERED",
+      "meaning": "Course exists in authoritative curriculum registry; no subject-specific extraction required yet."
+    },
+    {
+      "id": "INDEXED",
+      "meaning": "Canonical source locations are registered and queryable."
+    },
+    {
+      "id": "PROTOTYPE_ACTIVE",
+      "meaning": "A usable subject study prototype exists and may evolve."
+    },
+    {
+      "id": "EXAM_PRIORITY",
+      "meaning": "Subject is actively prioritized because a near-term exam/use case needs it."
+    },
+    {
+      "id": "MATURE",
+      "meaning": "Core question/topic/answer structure is substantially validated."
+    },
+    {
+      "id": "FROZEN_RELEASE",
+      "meaning": "A specific release is immutable; later changes require a new version."
+    }
+  ],
+  "rules": [
+    "State does not transfer authority between subjects.",
+    "Exam priority changes work order, not source truth.",
+    "A frozen release remains preserved when a newer release is created."
+  ]
+}

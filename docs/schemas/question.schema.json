@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question.schema.json",
+  "title": "Question Occurrence or Canonical Question",
+  "type": "object",
+  "required": [
+    "question_id",
+    "course_id",
+    "record_kind",
+    "text",
+    "verification_state"
+  ],
+  "properties": {
+    "question_id": {
+      "type": "string"
+    },
+    "course_id": {
+      "type": "string"
+    },
+    "record_kind": {
+      "enum": [
+        "occurrence",
+        "canonical"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "marks": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "topic_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verification_state": {
+      "type": "string"
+    },
+    "duplicate_group_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "uncertainty_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

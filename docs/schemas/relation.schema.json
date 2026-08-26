@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relation.schema.json",
+  "title": "Study Knowledge Relationship",
+  "type": "object",
+  "required": [
+    "from",
+    "relation",
+    "to",
+    "status"
+  ],
+  "properties": {
+    "from": {
+      "type": "string"
+    },
+    "relation": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

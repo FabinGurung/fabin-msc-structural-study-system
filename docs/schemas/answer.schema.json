@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "answer.schema.json",
+  "title": "Verified Study Answer",
+  "type": "object",
+  "required": [
+    "answer_id",
+    "course_id",
+    "question_ref",
+    "status"
+  ],
+  "properties": {
+    "answer_id": {
+      "type": "string"
+    },
+    "course_id": {
+      "type": "string"
+    },
+    "question_ref": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "SOURCE_GROUNDED",
+        "QA_VERIFIED",
+        "FROZEN_RELEASE"
+      ]
+    },
+    "content_markdown": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "content_html_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "figure_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainty_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

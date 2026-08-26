@@ -1,0 +1,5 @@
+{"from": "PROGRAM:MSC_STRUCTURAL", "relation": "HAS_SUBJECT_WORKSPACE", "to": "MTH504", "status": "VERIFIED"}
+{"from": "PROGRAM:MSC_STRUCTURAL", "relation": "HAS_SUBJECT_WORKSPACE", "to": "STR715", "status": "VERIFIED"}
+{"from": "MTH504", "relation": "PUBLIC_WEB_ROUTE", "to": "/subjects/mth504/", "status": "ACTIVE"}
+{"from": "STR715", "relation": "PUBLIC_WEB_ROUTE", "to": "/subjects/str715/", "status": "RESERVED_NOT_YET_PUBLISHED"}
+{"from": "STR715:CURRICULUM_TITLE", "relation": "SOURCE_VARIANT_OF", "to": "STR715:WORKSPACE_TITLE", "status": "VERIFIED_DIFFERENT_WORDING", "note": "Curriculum: Seismic Assessments and Retrofitting of Structures; workspace/handoff: Seismic Assessment and Retrofitting of Structures."}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Academic Source",
+  "type": "object",
+  "required": [
+    "source_id",
+    "course_id",
+    "source_type",
+    "verification_state"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "course_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "verification_state": {
+      "enum": [
+        "VERIFIED",
+        "TRANSCRIBED_FROM_SCAN",
+        "UNCERTAIN",
+        "CONFLICT",
+        "UNRESOLVED"
+      ]
+    },
+    "canonical_location": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Private authority reference; never expose private Drive URL publicly."
+    },
+    "provenance_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
