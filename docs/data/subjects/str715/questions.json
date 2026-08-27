@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "record_type": "exam_question_set_public_derivative",
+  "course": {
+    "university": "Pokhara University",
+    "school": "School of Engineering",
+    "level": "Master",
+    "programme": "M Sc in Structural Engineering",
+    "course_title": "Seismic Assessment and Retrofitting of Structures",
+    "course_code": "STR 715",
+    "semester": "Fall",
+    "year": 2025
+  },
+  "source": {
+    "source_sha256": "088cf4d061921ecfe7303ba2f6f8574d476f1b321fdf647d7619e0f395768041",
+    "page_count": 2,
+    "pdf_text_layer": false,
+    "transcription_method": "visual transcription from rendered page images; no OCR used",
+    "source_location": "PRIVATE_GOVERNED_GOOGLE_DRIVE",
+    "private_drive_ids_published": false
+  },
+  "papers": [
+    {
+      "paper_id": "STR715-2025-FALL-FINAL-INTERNAL",
+      "source_page": 1,
+      "printed_heading": "FINAL INTERNAL EXAMINATION",
+      "paper_type": "final_internal_examination",
+      "full_marks": 100,
+      "pass_marks": 60,
+      "time_hours": 4,
+      "instructions": [
+        "Candidates are required to give their answers in their own words as far as practicable.",
+        "The figures in the margin indicate full marks.",
+        "Attempt all the questions."
+      ],
+      "questions": [
+        {
+          "question_no": 1,
+          "marks": 10,
+          "text": "Explain any two qualitative methods for seismic evaluation of structures."
+        },
+        {
+          "question_no": 2,
+          "marks": 10,
+          "text": "Discuss for any two analytical methods adopted for performance assessment of structures?"
+        },
+        {
+          "question_no": 3,
+          "marks": 10,
+          "text": "Define DCR. What parameters are considered for assessment with DCR? Explain in details."
+        },
+        {
+          "question_no": 4,
+          "marks": 10,
+          "text": "How the seismic capacity and demand of the structure is assessed? Explain in details."
+        },
+        {
+          "question_no": 5,
+          "marks": 10,
+          "text": "What is performance point? Explain the globally adopted performance criteria to assess the building performance with relevant figure."
+        },
+        {
+          "question_no": 6,
+          "marks": 10,
+          "text": "Write down the detailed procedure for bilinear idealization of capacity curve. Explain its importance."
+        },
+        {
+          "question_no": 7,
+          "marks": 10,
+          "text": "Explain step by step procedure in details for derivation of fragility curve."
+        },
+        {
+          "question_no": 8,
+          "marks": 10,
+          "text": "Discuss the retrofit and repair materials."
+        },
+        {
+          "question_no": 9,
+          "marks": 10,
+          "text": "Explain the local and global level retrofitting methods in details."
+        },
+        {
+          "question_no": 10,
+          "marks": 10,
+          "text": "Write down the detail retrofitting techniques applied after 2015 Gorkha earthquakes in Nepal for improving structural integrity of masonry and RC structures."
+        }
+      ]
+    },
+    {
+      "paper_id": "STR715-2025-FALL-FINAL",
+      "source_page": 2,
+      "printed_heading": "FINAL EXAMINATION",
+      "paper_type": "final_examination",
+      "filename_role_note": "The source filename says 'internal and external'; the printed page itself says only 'FINAL EXAMINATION', so 'external' is not asserted as printed fact.",
+      "full_marks": 100,
+      "pass_marks": 60,
+      "time_hours": 4,
+      "instructions": [
+        "Candidates are required to give their answers in their own words as far as practicable.",
+        "The figures in the margin indicate full marks.",
+        "Attempt all the questions."
+      ],
+      "questions": [
+        {
+          "question_no": 1,
+          "marks": 10,
+          "text": "How are the equal displacement and equal energy rules applied in the performance assessment of structures? Describe with the help of necessary sketches."
+        },
+        {
+          "question_no": 2,
+          "marks": 10,
+          "text": "Explain pushover analysis. Why is time history analysis considered superior to other static methods?"
+        },
+        {
+          "question_no": 3,
+          "marks": 10,
+          "text": "What types of information can be extracted from the performance point? Why is the idealization of the capacity curve necessary for the seismic assessment of structures?"
+        },
+        {
+          "question_no": 4,
+          "marks": 10,
+          "text": "Define fragility analysis. How are fragility curves derived empirically? Write down the detailed procedure with appropriate relationships/expressions."
+        },
+        {
+          "question_no": 5,
+          "marks": 10,
+          "text": "What types of information can be obtained from non-destructive testing (NDT)? Explain any two NDT methods with necessary sketches."
+        },
+        {
+          "question_no": 6,
+          "marks": 10,
+          "text": "Define structural health monitoring (SHM). Describe the detailed procedure for the seismic assessment of historical structures using sensors."
+        },
+        {
+          "question_no": 7,
+          "marks": 10,
+          "text": "As a structural engineer, how would you assess the vulnerability of reinforced concrete structures located in Pokhara Valley?"
+        },
+        {
+          "question_no": 8,
+          "marks": 10,
+          "text": "State the criteria for the repair and retrofitting of structures."
+        },
+        {
+          "question_no": 9,
+          "marks": 10,
+          "text": "Why are most masonry structures in Nepal vulnerable during earthquakes? Describe the retrofitting methods used for heritage structures."
+        },
+        {
+          "question_no": 10,
+          "marks": 10,
+          "text": "As a structural engineer, how would you prepare the final technical report for the seismic retrofitting of a hospital building located in Kathmandu?"
+        }
+      ]
+    }
+  ]
+}

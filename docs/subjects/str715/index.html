@@ -1,0 +1,1279 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>STR 715 Study Module · 2025 Complete 20Q Master Study Pack</title><style>
+:root{
+  --ink:#172033;
+  --muted:#667085;
+  --paper:#f7f8fb;
+  --card:#ffffff;
+  --line:#d9deea;
+  --blue:#2457d6;
+  --blue-soft:#edf3ff;
+  --cyan:#0f7890;
+  --cyan-soft:#eaf9fc;
+  --amber:#a76105;
+  --amber-soft:#fff5df;
+  --green:#16784c;
+  --green-soft:#eaf8f0;
+  --red:#b42318;
+  --red-soft:#fff0ef;
+  --violet:#6841c6;
+  --violet-soft:#f2efff;
+  --shadow:0 12px 36px rgba(30,45,80,.08);
+  --radius:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.62;
+}
+a{color:var(--blue);text-decoration:none}
+.wrap{max-width:1160px;margin:auto;padding:24px}
+.hero{
+  background:linear-gradient(135deg,#15264f 0%,#2046a4 55%,#14758b 100%);
+  color:white;border-radius:26px;padding:34px 34px 28px;box-shadow:var(--shadow);position:relative;overflow:hidden
+}
+.hero:after{
+  content:"";position:absolute;width:320px;height:320px;border:1px solid rgba(255,255,255,.18);
+  border-radius:50%;right:-110px;top:-125px;box-shadow:0 0 0 48px rgba(255,255,255,.04),0 0 0 96px rgba(255,255,255,.025)
+}
+.eyebrow{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800;opacity:.82}
+h1{font-size:clamp(2rem,4vw,3.5rem);line-height:1.04;margin:.35rem 0 .7rem}
+.hero p{max-width:850px;margin:.5rem 0 0;color:#e8efff}
+.pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.pill{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.24);border-radius:999px;padding:7px 11px;font-weight:700;font-size:.86rem}
+.topgrid{display:grid;grid-template-columns:1.35fr .65fr;gap:18px;margin:20px 0}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow)}
+.panel h2,.panel h3{margin-top:0}
+.nav{display:flex;flex-wrap:wrap;gap:10px}
+.nav a{display:inline-flex;align-items:center;gap:7px;padding:9px 13px;border-radius:12px;background:#f4f6fb;border:1px solid #e0e5ef;font-weight:800}
+.nav a:hover{background:var(--blue-soft)}
+.legend{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.legend div{border-radius:11px;padding:9px 10px;font-size:.88rem;font-weight:700}
+.source{background:var(--green-soft);color:var(--green)}
+.clarify{background:var(--amber-soft);color:var(--amber)}
+.memory{background:var(--violet-soft);color:var(--violet)}
+.figure{background:var(--blue-soft);color:var(--blue)}
+.qcard{
+  background:var(--card);border:1px solid var(--line);border-radius:22px;
+  margin:22px 0;padding:0;box-shadow:var(--shadow);overflow:hidden
+}
+.qhead{padding:22px 24px 18px;background:linear-gradient(180deg,#fff,#fafbfe);border-bottom:1px solid var(--line)}
+.qnum{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--blue);color:white;font-weight:900;font-size:1.25rem;margin-right:10px;vertical-align:middle}
+.qhead h2{display:inline;font-size:1.42rem;line-height:1.35}
+.marks{float:right;background:#101828;color:white;border-radius:999px;padding:7px 11px;font-weight:800;font-size:.82rem}
+.qbody{padding:22px 24px 26px}
+.blueprint{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:0 0 18px}
+.bp{position:relative;padding:12px;border-radius:12px;background:#f8f9fc;border:1px solid #e3e7ef;font-size:.88rem}
+.bp b{display:block;color:#344054;margin-bottom:2px}
+.bp:not(:last-child):after{content:"→";position:absolute;right:-10px;top:50%;transform:translateY(-50%);z-index:3;color:var(--blue);font-weight:900;background:white;border-radius:50%;width:20px;text-align:center}
+.note{border-left:5px solid;padding:13px 15px;border-radius:12px;margin:14px 0}
+.note.source-note{background:var(--green-soft);border-color:var(--green)}
+.note.clarify-note{background:var(--amber-soft);border-color:#d78812}
+.note.memory-note{background:var(--violet-soft);border-color:var(--violet)}
+.note strong{display:block;margin-bottom:3px}
+.kgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:15px 0}
+.kbox{background:#fbfcfe;border:1px solid var(--line);border-radius:14px;padding:14px 15px}
+.kbox h3{font-size:1rem;margin:0 0 7px;color:#344054}
+ul,ol{padding-left:1.25rem}
+li{margin:.26rem 0}
+mark{background:#fff0a8;padding:.08em .2em;border-radius:4px}
+.formula{
+  margin:14px 0;background:#111827;color:#f8fafc;border-radius:14px;
+  padding:14px 16px;font-family:"SFMono-Regular",Consolas,monospace;overflow:auto
+}
+.diagram{
+  background:#fbfdff;border:1px solid #cfd9ec;border-radius:16px;padding:14px;margin:16px 0
+}
+.diagram .caption{font-size:.86rem;color:var(--muted);font-weight:700;margin-top:8px}
+svg{max-width:100%;height:auto;display:block;margin:auto}
+.exam-answer{
+  border:2px solid #cbd5e1;background:#fff;border-radius:15px;padding:16px 18px;margin-top:16px
+}
+.exam-answer h3{margin:0 0 8px;color:#1d4ed8}
+.exam-answer p:first-of-type{margin-top:0}
+.ribbon{display:inline-block;font-size:.72rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:8px;margin-right:6px}
+.r-source{background:var(--green-soft);color:var(--green)}
+.r-clarify{background:var(--amber-soft);color:var(--amber)}
+.r-memory{background:var(--violet-soft);color:var(--violet)}
+.footer{color:var(--muted);font-size:.88rem;padding:16px 4px 40px}
+table{width:100%;border-collapse:collapse;margin:14px 0}
+th,td{border:1px solid var(--line);padding:10px 11px;text-align:left;vertical-align:top}
+th{background:#f3f5fa}
+.check{font-weight:800;color:var(--green)}
+@media(max-width:820px){
+  .topgrid,.kgrid{grid-template-columns:1fr}
+  .blueprint{grid-template-columns:1fr 1fr}
+  .bp:nth-child(2):after{display:none}
+  .wrap{padding:12px}.hero{padding:26px 22px}.qbody,.qhead{padding-left:17px;padding-right:17px}
+}
+@media print{
+  body{background:white;font-size:10.8pt}
+  .wrap{max-width:none;padding:0}
+  .hero,.panel,.qcard{box-shadow:none}
+  .hero{border-radius:0}
+  .topgrid{display:none}
+  .qcard{break-inside:avoid;border-radius:0;margin:0 0 12mm}
+  .qhead{padding:8mm 8mm 5mm}.qbody{padding:5mm 8mm}
+  a{color:inherit}
+}
+
+.master-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;margin:20px 0}.mini-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow)}
+.section-banner{margin:28px 0 14px;padding:18px 20px;border-radius:20px;background:linear-gradient(180deg,#ffffff,#f8faff);border:1px solid var(--line);box-shadow:var(--shadow)}
+.section-banner h2{margin:0 0 6px}.section-banner p{margin:0;color:var(--muted)}
+.toc-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}.toc-list a{display:block;padding:9px 12px;border-radius:12px;background:#f8f9fc;border:1px solid #e3e7ef;font-weight:700}
+.summary-table td,.summary-table th{font-size:.95rem}.tag{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:.8rem;font-weight:800;margin:2px 4px 2px 0}
+.keyline{border-left:5px solid var(--blue);padding:12px 14px;background:#f7faff;border-radius:12px}
+@media(max-width:820px){.master-grid,.toc-list{grid-template-columns:1fr}}
+
+.portalbar{max-width:1160px;margin:16px auto 0;padding:0 24px}
+.portalbar a{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border:1px solid #d9deea;border-radius:12px;background:#fff;color:#2457d6;font-weight:800;box-shadow:0 6px 18px rgba(30,45,80,.06)}
+.portalbar a:hover{background:#edf3ff}
+@media print{.portalbar{display:none}}
+
+</style></head><body><div class="portalbar"><a href="../../">← MSc Structural Engineering portal</a></div><div class="wrap">
+<section class="hero">
+  <div class="eyebrow">Pokhara University · MSc Structural Engineering · STR 715 · Public study module</div>
+  <h1>2025 Complete 20-Question Master Study Pack</h1>
+  <p><b>Single-pack study edition.</b> This consolidates the entire processed exam set into one navigable resource: <b>Final Internal Examination Q1–Q10</b> and <b>Final Examination Q1–Q10</b>. It keeps the same source-grounded visual standard, diagrams, formulas and caution notes, but removes the need to jump between four separate files.</p>
+  <div class="pills">
+    <span class="pill">20 / 20 questions covered</span>
+    <span class="pill">Master HTML + PDF + JSON index</span>
+    <span class="pill">Source-grounded</span>
+    <span class="pill">Low cognitive load</span>
+    <span class="pill">CP-STR715-VIS-01</span>
+  </div>
+</section>
+
+<div class="master-grid">
+  <section class="mini-card">
+    <h2>How to use this pack</h2>
+    <ol>
+      <li><b>First pass:</b> study by <b>cluster</b> using the topic map below.</li>
+      <li><b>Second pass:</b> use the contents to answer each question from memory.</li>
+      <li><b>Third pass:</b> revise only the repeated high-yield concepts: <b>performance point, capacity curve, pushover vs time history, fragility, retrofit methods, Nepal masonry, NDT and SHM</b>.</li>
+      <li><b>Final pass:</b> print the PDF or use browser search inside the HTML for rapid recall.</li>
+    </ol>
+    <div class="keyline"><b>Best exam tactic:</b> do not memorize 20 answers separately. Memorize the core concept clusters, then attach the exact exam wording to them.</div>
+  </section>
+  <section class="mini-card">
+    <h2>Coverage checkpoint</h2>
+    <table class="summary-table">
+      <tr><th>Exam block</th><th>Questions</th><th>Status</th></tr>
+      <tr><td>Final Internal Examination</td><td>Q1–Q10</td><td class="check">Complete</td></tr>
+      <tr><td>Final Examination</td><td>Q1–Q10</td><td class="check">Complete</td></tr>
+      <tr><td>Total</td><td>20 questions</td><td class="check">Complete</td></tr>
+    </table>
+    <p><b>Artifacts inside this pack:</b> merged answer cards, topic map, contents, print styling and full navigation.</p>
+  </section>
+</div>
+
+<section class="section-banner"><h2>Study-map by repeated concept cluster</h2><p>Use this first if you want to compress 20 answers into a smaller mental model.</p></section>
+<section class="panel">
+  <table class="summary-table">
+    <tr><th>Cluster</th><th>Questions in this pack</th></tr>
+    <tr><td><b>Assessment basics</b></td><td>Final Internal Q1, Final Internal Q2, Final Q2</td></tr>
+<tr><td><b>Capacity-demand</b></td><td>Final Internal Q4, Final Internal Q5, Final Internal Q6, Final Q1, Final Q3</td></tr>
+<tr><td><b>Core definitions</b></td><td>Final Internal Q3</td></tr>
+<tr><td><b>Fragility/vulnerability</b></td><td>Final Internal Q7, Final Q4</td></tr>
+<tr><td><b>Nepal applications</b></td><td>Final Internal Q10, Final Q7, Final Q9</td></tr>
+<tr><td><b>Professional reporting</b></td><td>Final Q10</td></tr>
+<tr><td><b>Retrofit measures</b></td><td>Final Internal Q8, Final Internal Q9, Final Q8</td></tr>
+<tr><td><b>Testing/monitoring</b></td><td>Final Q5, Final Q6</td></tr>
+  </table>
+</section>
+<section class="section-banner"><h2>Contents</h2><p>Direct jump links to every question.</p></section>
+<div class="master-grid">
+  <section class="mini-card"><h3>Final Internal Examination — Q1 to Q10</h3><div class="toc-list"><a href="#int1-q1">Q1 — Explain any two qualitative methods for seismic evaluation of structures.</a><a href="#int1-q2">Q2 — Discuss any two analytical methods adopted for performance assessment of structures.</a><a href="#int1-q3">Q3 — Define DCR. What parameters are considered for assessment with DCR? Explain in details.</a><a href="#int1-q4">Q4 — How the seismic capacity and demand of the structure is assessed? Explain in details.</a><a href="#int1-q5">Q5 — What is performance point? Explain the globally adopted performance criteria to assess the building performance with relevant figure.</a><a href="#int2-q6">Q6 — Write down the detailed procedure for bilinear idealization of capacity curve. Explain its importance.</a><a href="#int2-q7">Q7 — Explain step by step procedure in details for derivation of fragility curve.</a><a href="#int2-q8">Q8 — Discuss the retrofit and repair materials.</a><a href="#int2-q9">Q9 — Explain the local and global level retrofitting methods in details.</a><a href="#int2-q10">Q10 — Write down the detail retrofitting techniques applied after 2015 Gorkha earthquakes in Nepal for improving structural integrity of masonry and RC structures.</a></div></section>
+  <section class="mini-card"><h3>Final Examination — Q1 to Q10</h3><div class="toc-list"><a href="#fin1-q1">Q1 — How are the equal displacement and equal energy rules applied in the performance assessment of structures? Describe with the help of necessary sketches.</a><a href="#fin1-q2">Q2 — Explain pushover analysis. Why is time history analysis considered superior to other static methods?</a><a href="#fin1-q3">Q3 — What types of information can be extracted from the performance point? Why is the idealization of the capacity curve necessary for the seismic assessment of structures?</a><a href="#fin1-q4">Q4 — Define fragility analysis. How are fragility curves derived empirically? Write down the detailed procedure with appropriate relationships/expressions.</a><a href="#fin1-q5">Q5 — What types of information can be obtained from non-destructive testing (NDT)? Explain any two NDT methods with necessary sketches.</a><a href="#fin2-q6">Q6 — Define structural health monitoring (SHM). Describe the detailed procedure for the seismic assessment of historical structures using sensors.</a><a href="#fin2-q7">Q7 — As a structural engineer, how would you assess the vulnerability of reinforced concrete structures located in Pokhara Valley?</a><a href="#fin2-q8">Q8 — State the criteria for the repair and retrofitting of structures.</a><a href="#fin2-q9">Q9 — Why are most masonry structures in Nepal vulnerable during earthquakes? Describe the retrofitting methods used for heritage structures.</a><a href="#fin2-q10">Q10 — As a structural engineer, how would you prepare the final technical report for the seismic retrofitting of a hospital building located in Kathmandu?</a></div></section>
+</div>
+<section class="section-banner"><h2>Final Internal Examination</h2><p>All questions preserved in sequence. Source/clarification boxes remain inside each answer card.</p></section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q1</b><br><span class="tag">Qualitative methods</span><span class="tag">RVS</span><span class="tag">Checklist screening</span></section><section class="qcard" id="int1-q1">
+  <div class="qhead"><span class="qnum">1</span><h2>Explain any two qualitative methods for seismic evaluation of structures.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Define</b>What qualitative evaluation does</div>
+      <div class="bp"><b>2 · Method A</b>Rapid Visual Screening</div>
+      <div class="bp"><b>3 · Method B</b>Checklist / empirical vulnerability review</div>
+      <div class="bp"><b>4 · Close</b>Use result to prioritize detailed analysis</div>
+    </div>
+
+    <div class="note source-note"><strong>Source anchor</strong>The STR 715 outline explicitly includes <b>Qualitative Methods</b> under Seismic Assessment. The supplied answer book contains Rapid Visual Screening and a more detailed empirical/checklist-style assessment discussion.</div>
+
+    <p><b>Qualitative seismic evaluation</b> assesses likely earthquake vulnerability mainly from <mark>observable building characteristics, configuration, condition and past-performance indicators</mark>, before or instead of a complete numerical model.</p>
+
+    <div class="kgrid">
+      <div class="kbox">
+        <h3>A. Rapid Visual Screening (RVS)</h3>
+        <ul>
+          <li>Quick field screening by a trained evaluator.</li>
+          <li>Identify structural system, storey count and apparent construction quality.</li>
+          <li>Observe <b>soft/weak storey, setbacks, re-entrant corners, torsional irregularity and short columns</b>.</li>
+          <li>Record visible cracks, deterioration, pounding risk, heavy parapets/appendages and obvious site concerns.</li>
+          <li>Convert observations into a screening score / vulnerability class.</li>
+        </ul>
+        <p><b>Use:</b> prioritization of buildings needing detailed evaluation.</p>
+      </div>
+      <div class="kbox">
+        <h3>B. Checklist / empirical vulnerability assessment</h3>
+        <ul>
+          <li>Uses a structured checklist, expert judgement and lessons from earthquake damage.</li>
+          <li>Checks load path, wall/diaphragm connection, irregularity, deterioration, material quality and detailing.</li>
+          <li>Each deficiency may receive a class, score or weight.</li>
+          <li>Combined result gives a relative vulnerability ranking.</li>
+        </ul>
+        <p><b>Use:</b> building-stock screening when drawings or exact material data are limited.</p>
+      </div>
+    </div>
+
+    <div class="diagram">
+      <svg viewBox="0 0 930 260" role="img" aria-label="Qualitative seismic evaluation flow">
+        <defs><marker id="a1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+        <rect x="25" y="82" width="170" height="78" rx="15" fill="#edf3ff" stroke="#2457d6" stroke-width="2"/>
+        <text x="110" y="113" text-anchor="middle" font-weight="800" fill="#172033">BUILDING</text><text x="110" y="137" text-anchor="middle" fill="#667085">inventory + site</text>
+        <line x1="195" y1="121" x2="290" y2="121" stroke="#2457d6" stroke-width="3" marker-end="url(#a1)"/>
+        <rect x="300" y="35" width="205" height="72" rx="15" fill="#eaf8f0" stroke="#16784c" stroke-width="2"/>
+        <text x="402" y="66" text-anchor="middle" font-weight="800">RVS</text><text x="402" y="89" text-anchor="middle" fill="#667085">visual deficiencies</text>
+        <rect x="300" y="139" width="205" height="72" rx="15" fill="#fff5df" stroke="#a76105" stroke-width="2"/>
+        <text x="402" y="170" text-anchor="middle" font-weight="800">CHECKLIST</text><text x="402" y="193" text-anchor="middle" fill="#667085">empirical score</text>
+        <line x1="505" y1="72" x2="610" y2="105" stroke="#2457d6" stroke-width="3" marker-end="url(#a1)"/>
+        <line x1="505" y1="175" x2="610" y2="139" stroke="#2457d6" stroke-width="3" marker-end="url(#a1)"/>
+        <rect x="620" y="82" width="190" height="78" rx="15" fill="#f2efff" stroke="#6841c6" stroke-width="2"/>
+        <text x="715" y="111" text-anchor="middle" font-weight="800">VULNERABILITY</text><text x="715" y="134" text-anchor="middle">class / priority</text>
+        <line x1="810" y1="121" x2="890" y2="121" stroke="#2457d6" stroke-width="3" marker-end="url(#a1)"/>
+        <text x="875" y="92" text-anchor="end" font-weight="800" fill="#2457d6">Detailed</text><text x="875" y="109" text-anchor="end" fill="#667085">analysis if needed</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Figure to remember</span> Qualitative screening → vulnerability class → detailed analysis when triggered.</div>
+    </div>
+
+    <div class="exam-answer"><h3>Exam-ready close</h3><p>Thus, qualitative methods do not attempt to calculate exact nonlinear capacity. Their principal purpose is to <b>identify vulnerable features quickly, rank risk, and decide where detailed analytical assessment should be concentrated</b>.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q2</b><br><span class="tag">Analytical methods</span><span class="tag">Pushover</span><span class="tag">Inelastic time history</span></section><section class="qcard" id="int1-q2">
+  <div class="qhead"><span class="qnum">2</span><h2>Discuss any two analytical methods adopted for performance assessment of structures.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="note clarify-note"><strong>Source discrepancy — do not memorize blindly</strong>The handwritten answer book lists <b>pushover curve analysis</b> and <b>fragility curve analysis</b>. The official STR 715 outline, however, places <b>fragility curves under Vulnerability Assessment</b> and lists <b>Capacity/Demand Method, Pushover Analysis and Inelastic Time History Analysis</b> as analytical seismic-assessment methods. For an exam answer aligned to the syllabus, the pair below is safer.</div>
+
+    <div class="kgrid">
+      <div class="kbox">
+        <h3>A. Nonlinear static pushover analysis</h3>
+        <ol>
+          <li>Create a structural model and apply gravity loads.</li>
+          <li>Assign nonlinear behaviour / hinge properties.</li>
+          <li>Apply a selected lateral-load pattern.</li>
+          <li>Increase lateral load step by step.</li>
+          <li>Track <b>base shear, roof displacement, storey drift and hinge sequence</b>.</li>
+          <li>Plot the capacity curve: <b>V<sub>b</sub> versus Δ<sub>roof</sub></b>.</li>
+          <li>Compare with demand / target displacement to judge performance.</li>
+        </ol>
+        <p><b>Strength:</b> shows yielding sequence, weak storeys and approximate nonlinear capacity with moderate computational effort.</p>
+      </div>
+      <div class="kbox">
+        <h3>B. Inelastic time-history analysis</h3>
+        <ol>
+          <li>Use a nonlinear structural model.</li>
+          <li>Select ground-motion records compatible with the hazard scenario.</li>
+          <li>Apply earthquake acceleration as a function of time.</li>
+          <li>Solve structural response increment-by-increment.</li>
+          <li>Extract displacement, drift, force, acceleration and nonlinear deformation histories.</li>
+          <li>Compare peak / residual demands with performance limits.</li>
+        </ol>
+        <p><b>Strength:</b> retains the time sequence, repeated yielding and dynamic effects that a static method cannot reproduce directly.</p>
+      </div>
+    </div>
+
+    <div class="formula">Conceptual dynamic equilibrium:
+M·ü(t) + C·u̇(t) + R[u(t)] = −M·r·a<sub>g</sub>(t)</div>
+
+    <div class="diagram">
+      <svg viewBox="0 0 960 360" role="img" aria-label="Comparison of pushover and time history analysis">
+        <defs><marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+        <text x="235" y="30" text-anchor="middle" font-weight="900" font-size="18">PUSHOVER · static nonlinear path</text>
+        <line x1="70" y1="285" x2="430" y2="285" stroke="#344054" stroke-width="2" marker-end="url(#a2)"/>
+        <line x1="70" y1="285" x2="70" y2="70" stroke="#344054" stroke-width="2" marker-end="url(#a2)"/>
+        <path d="M70 285 C120 245,155 185,220 150 C285 115,340 112,415 132" fill="none" stroke="#2457d6" stroke-width="5"/>
+        <circle cx="215" cy="153" r="7" fill="#b42318"/><text x="228" y="145" font-weight="800" fill="#b42318">yield region</text>
+        <text x="250" y="325" text-anchor="middle">Roof displacement Δ</text><text x="28" y="175" transform="rotate(-90 28 175)" text-anchor="middle">Base shear Vb</text>
+
+        <text x="725" y="30" text-anchor="middle" font-weight="900" font-size="18">TIME HISTORY · response versus time</text>
+        <line x1="540" y1="175" x2="910" y2="175" stroke="#344054" stroke-width="2" marker-end="url(#a2)"/>
+        <path d="M545 175 L565 150 L590 215 L620 125 L650 235 L680 105 L712 250 L742 130 L770 205 L800 145 L830 190 L860 160 L900 175" fill="none" stroke="#0f7890" stroke-width="4"/>
+        <text x="725" y="325" text-anchor="middle">time t →</text>
+        <rect x="555" y="260" width="340" height="48" rx="12" fill="#eaf9fc" stroke="#0f7890"/>
+        <text x="725" y="289" text-anchor="middle" font-weight="800">captures repeated loading + unloading</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Syllabus-aligned pair</span> Pushover shows a nonlinear capacity path; inelastic time history resolves dynamic response through time.</div>
+    </div>
+
+    <div class="exam-answer"><h3>One-line comparison</h3><p><b>Pushover</b> is simpler and highly useful for global capacity / mechanism insight; <b>inelastic time-history</b> is more demanding but can represent dynamic response, higher-mode contribution and repeated nonlinear cycles more directly.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q3</b><br><span class="tag">DCR</span><span class="tag">Demand-to-capacity ratio</span></section><section class="qcard" id="int1-q3">
+  <div class="qhead"><span class="qnum">3</span><h2>Define DCR. What parameters are considered for assessment with DCR? Explain in details.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <p><b>DCR = Demand-to-Capacity Ratio.</b> It expresses the size of the action demanded by the earthquake/load combination relative to the corresponding component capacity.</p>
+    <div class="formula">DCR = Q<sub>UD</sub> / Q<sub>CE</sub>
+Q<sub>UD</sub> = demand (force/action)     Q<sub>CE</sub> = expected/reference capacity</div>
+
+    <div class="kgrid">
+      <div class="kbox"><h3>Demand-side inputs</h3><ul>
+        <li>Dead and superimposed dead load.</li><li>Applicable live load.</li><li>Earthquake action and analysis direction.</li>
+        <li>Action checked: <b>P, V, M, T</b> or interaction.</li><li>Mass, stiffness, period / modal response where required.</li>
+        <li>Load combination and torsional effects specified by the adopted evaluation procedure.</li>
+      </ul></div>
+      <div class="kbox"><h3>Capacity-side inputs</h3><ul>
+        <li>Concrete, steel or masonry strength.</li><li>Member dimensions / section geometry.</li>
+        <li>Longitudinal reinforcement, ties/stirrups, anchorage and confinement.</li><li>Axial load level.</li>
+        <li>Cracking, corrosion, section loss, deterioration and previous damage.</li><li>Expected component strength for the action being checked.</li>
+      </ul></div>
+    </div>
+
+    <table>
+      <tr><th>DCR result</th><th>Meaning for quick interpretation</th></tr>
+      <tr><td><b>DCR &lt; 1</b></td><td>Demand is below the selected reference capacity.</td></tr>
+      <tr><td><b>DCR ≈ 1</b></td><td>Demand is approximately at the selected reference capacity.</td></tr>
+      <tr><td><b>DCR &gt; 1</b></td><td>Demand exceeds that reference capacity; acceptance / performance must be examined using the adopted procedure.</td></tr>
+    </table>
+
+    <div class="diagram">
+      <svg viewBox="0 0 900 250" role="img" aria-label="Demand capacity ratio bars">
+        <defs><marker id="a3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+        <text x="80" y="60" font-weight="900">CAPACITY QCE</text>
+        <rect x="245" y="37" width="500" height="34" rx="10" fill="#eaf8f0" stroke="#16784c" stroke-width="2"/>
+        <text x="80" y="125" font-weight="900">DEMAND QUD</text>
+        <rect x="245" y="102" width="335" height="34" rx="10" fill="#edf3ff" stroke="#2457d6" stroke-width="2"/>
+        <line x1="580" y1="145" x2="580" y2="188" stroke="#b42318" stroke-width="2" stroke-dasharray="5 5"/>
+        <text x="580" y="213" text-anchor="middle" font-weight="900" fill="#b42318">current demand</text>
+        <text x="780" y="58" fill="#16784c" font-weight="800">available reference capacity</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Memory hook</span> DCR asks only one question: <b>How large is demand compared with capacity?</b></div>
+    </div>
+
+    <div class="note clarify-note"><strong>Acceptance caution</strong>The supplied study material uses the simple DCR interpretation above. Exact pass/fail acceptance limits can depend on the specific evaluation standard and action type; therefore do not claim that every DCR above 1 automatically means structural collapse.</div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q4</b><br><span class="tag">Capacity vs demand</span><span class="tag">ADRS</span><span class="tag">Performance point</span></section><section class="qcard" id="int1-q4">
+  <div class="qhead"><span class="qnum">4</span><h2>How the seismic capacity and demand of the structure is assessed? Explain in details.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>Capacity</b>Pushover curve</div><div class="bp"><b>Transform</b>Sa–Sd / ADRS</div>
+      <div class="bp"><b>Demand</b>Response spectrum</div><div class="bp"><b>Compare</b>Performance point</div>
+    </div>
+
+    <h3>1. Structural capacity</h3>
+    <ol>
+      <li>Model the existing structure using geometry, member stiffness and available material information.</li>
+      <li>Apply gravity loads and a selected lateral-load pattern.</li>
+      <li>Increase lateral action progressively.</li>
+      <li>Record <b>base shear V<sub>b</sub></b> and <b>roof/control displacement Δ</b>.</li>
+      <li>Plot the capacity curve and identify stiffness change, yielding, strength and post-yield response.</li>
+      <li>For a capacity-spectrum procedure, transform the pushover curve into <b>spectral acceleration S<sub>a</sub> versus spectral displacement S<sub>d</sub></b>.</li>
+    </ol>
+
+    <h3>2. Seismic demand</h3>
+    <p>Demand is represented from the selected earthquake hazard, commonly through a <b>response spectrum</b> or earthquake time-history records. In a capacity-spectrum method, the demand spectrum is expressed in the same <b>S<sub>a</sub>–S<sub>d</sub></b> coordinate system as the capacity spectrum.</p>
+
+    <h3>3. Capacity–demand comparison</h3>
+    <p>The compatible intersection gives an estimate of the expected maximum response, called the <b>performance point</b>. At or near it, check roof/spectral displacement, base shear/spectral acceleration, storey drift, hinge state and component demand against performance limits.</p>
+
+    <div class="diagram">
+      <svg viewBox="0 0 900 440" role="img" aria-label="Capacity spectrum and demand spectrum performance point">
+        <defs><marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="95" y1="365" x2="820" y2="365" stroke="#344054" stroke-width="2.5" marker-end="url(#a4)"/>
+        <line x1="95" y1="365" x2="95" y2="55" stroke="#344054" stroke-width="2.5" marker-end="url(#a4)"/>
+        <text x="450" y="413" text-anchor="middle" font-weight="900">Spectral displacement, Sd →</text>
+        <text x="35" y="210" text-anchor="middle" transform="rotate(-90 35 210)" font-weight="900">Spectral acceleration, Sa →</text>
+        <path d="M95 365 C175 300,245 220,340 170 C430 123,520 112,650 126" fill="none" stroke="#2457d6" stroke-width="6"/>
+        <path d="M120 85 C250 115,340 155,430 205 C520 255,625 300,785 345" fill="none" stroke="#d27a05" stroke-width="6"/>
+        <circle cx="410" cy="194" r="12" fill="#b42318"/><circle cx="410" cy="194" r="23" fill="none" stroke="#b42318" stroke-width="2" stroke-dasharray="5 5"/>
+        <line x1="410" y1="194" x2="575" y2="75" stroke="#b42318" stroke-width="2"/>
+        <rect x="570" y="42" width="220" height="68" rx="12" fill="#fff0ef" stroke="#b42318"/>
+        <text x="680" y="70" text-anchor="middle" font-weight="900" fill="#b42318">PERFORMANCE POINT</text>
+        <text x="680" y="94" text-anchor="middle" fill="#667085">capacity = compatible demand</text>
+        <text x="525" y="122" fill="#2457d6" font-weight="900">CAPACITY SPECTRUM</text>
+        <text x="630" y="320" fill="#a76105" font-weight="900">DEMAND SPECTRUM</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Core exam figure</span> Plot capacity and demand in the same spectral coordinate system; their compatible intersection is the performance point.</div>
+    </div>
+
+    <div class="exam-answer"><h3>Essential principle</h3><p><b>Seismic assessment = Capacity versus Demand at the selected hazard level.</b> The method may be linear, nonlinear static or nonlinear dynamic, but the decision still depends on comparing earthquake-induced demand with the structure's available strength/deformation capacity.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q5</b><br><span class="tag">Performance point</span><span class="tag">IO/LS/CP</span></section><section class="qcard" id="int1-q5">
+  <div class="qhead"><span class="qnum">5</span><h2>What is performance point? Explain the globally adopted performance criteria to assess the building performance with relevant figure.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <p><b>Performance point</b> is the compatible point at which the capacity spectrum and demand spectrum meet in a capacity-spectrum assessment. It represents an estimate of the structure's maximum response for the considered earthquake demand.</p>
+
+    <div class="kgrid">
+      <div class="kbox"><h3>Information read / derived at the point</h3><ul>
+        <li>Spectral displacement and corresponding roof displacement.</li><li>Spectral acceleration and associated base shear.</li>
+        <li>Expected storey drift.</li><li>Plastic-hinge / component deformation state.</li><li>Whether the target performance objective is satisfied.</li>
+      </ul></div>
+      <div class="kbox"><h3>Performance criteria to remember</h3><ul>
+        <li><b>IO — Immediate Occupancy:</b> limited damage; major strength and stiffness largely retained.</li>
+        <li><b>LS — Life Safety:</b> significant damage, but a margin against collapse remains.</li>
+        <li><b>CP — Collapse Prevention:</b> severe damage, very small remaining margin, but global collapse is intended to be prevented.</li>
+      </ul></div>
+    </div>
+
+    <div class="note clarify-note"><strong>Course-note wording</strong>The supplied answer material also uses an intermediate <b>Moderate Damage / Damage Control</b> region between IO and LS. Terminology varies by framework. In the exam, label the levels clearly and explain the damage progression instead of treating one naming convention as universal.</div>
+
+    <div class="diagram">
+      <svg viewBox="0 0 960 460" role="img" aria-label="Performance levels on capacity curve">
+        <defs>
+          <marker id="a5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker>
+        </defs>
+        <rect x="110" y="70" width="175" height="285" fill="#eaf8f0"/><rect x="285" y="70" width="170" height="285" fill="#fff5df"/>
+        <rect x="455" y="70" width="185" height="285" fill="#edf3ff"/><rect x="640" y="70" width="205" height="285" fill="#fff0ef"/>
+        <text x="197" y="97" text-anchor="middle" font-weight="900" fill="#16784c">IO</text>
+        <text x="370" y="97" text-anchor="middle" font-weight="900" fill="#a76105">Moderate / DC</text>
+        <text x="547" y="97" text-anchor="middle" font-weight="900" fill="#2457d6">LS</text>
+        <text x="742" y="97" text-anchor="middle" font-weight="900" fill="#b42318">CP</text>
+        <line x1="90" y1="355" x2="885" y2="355" stroke="#344054" stroke-width="2.5" marker-end="url(#a5)"/>
+        <line x1="90" y1="355" x2="90" y2="50" stroke="#344054" stroke-width="2.5" marker-end="url(#a5)"/>
+        <path d="M90 355 C155 315,205 245,285 195 C370 145,475 128,580 132 C685 136,760 160,825 205" fill="none" stroke="#172033" stroke-width="6"/>
+        <circle cx="510" cy="133" r="12" fill="#b42318"/>
+        <line x1="510" y1="133" x2="510" y2="355" stroke="#b42318" stroke-width="2" stroke-dasharray="6 5"/>
+        <text x="510" y="392" text-anchor="middle" fill="#b42318" font-weight="900">example performance point</text>
+        <text x="490" y="430" text-anchor="middle" font-weight="900">Displacement / damage progression →</text>
+        <text x="33" y="205" text-anchor="middle" transform="rotate(-90 33 205)" font-weight="900">Base shear / Sa</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Figure to reproduce</span> As displacement demand moves right, damage progresses from IO toward LS and CP. The performance point must be judged against the target level.</div>
+    </div>
+
+    <table>
+      <tr><th>Level</th><th>Exam phrase</th><th>What it means</th></tr>
+      <tr><td><b>IO</b></td><td>Limited damage</td><td>Building retains substantial strength/stiffness and can generally return to use after inspection and limited repair, subject to nonstructural/utility condition.</td></tr>
+      <tr><td><b>LS</b></td><td>Significant but survivable damage</td><td>Damage is substantial; life-threatening hazards are controlled and a margin against collapse remains.</td></tr>
+      <tr><td><b>CP</b></td><td>Near-collapse condition</td><td>Severe damage with little residual margin, but global collapse is intended to be prevented.</td></tr>
+    </table>
+
+    <div class="exam-answer"><h3>Exam-ready conclusion</h3><p>A building satisfies the selected objective when the response at the performance point remains within the deformation, drift and component limits associated with the target performance level for the chosen earthquake hazard.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q6</b><br><span class="tag">Bilinear idealization</span><span class="tag">Capacity curve</span><span class="tag">Ductility</span></section><section class="qcard" id="int2-q6">
+  <div class="qhead"><span class="qnum">6</span><h2>Write down the detailed procedure for bilinear idealization of capacity curve. Explain its importance.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Start</b>Nonlinear pushover curve</div>
+      <div class="bp"><b>2 · Idealize</b>Elastic + post-yield lines</div>
+      <div class="bp"><b>3 · Extract</b>Vy, Δy, Vu, Δu, μ</div>
+      <div class="bp"><b>4 · Use</b>Performance / demand comparison</div>
+    </div>
+
+    <div class="note source-note"><strong>Source anchor</strong>The supplied answer book defines the capacity curve as the structure’s force–displacement response, explains elastic versus plastic response, and states that bilinear idealization is used for further analysis and for computing the performance point. The supplied “Pushover1.pdf” also constructs a bilinear curve using a yield point, an ultimate point and a post-yield stiffness.</div>
+
+    <p><b>Bilinear idealization</b> replaces the irregular nonlinear pushover capacity curve by <mark>two straight-line segments: an initial elastic branch and a post-yield branch</mark>. The idealized curve preserves the key engineering information while making yield, ductility and performance calculations easier.</p>
+
+    <h3>Step-by-step procedure</h3>
+    <ol>
+      <li><b>Obtain the pushover capacity curve.</b> Plot base shear \(V\) on the vertical axis against roof/control displacement \(\Delta\) on the horizontal axis.</li>
+      <li><b>Identify the initial elastic region.</b> Use the approximately linear early portion of the curve to define the initial lateral stiffness \(K_e\).</li>
+      <li><b>Identify the yield transition.</b> Select the point at which the response changes from predominantly elastic to inelastic. Denote it by the idealized yield point \((\Delta_y,V_y)\).</li>
+      <li><b>Select the ultimate/control point.</b> Use the chosen terminal performance point of the capacity curve—e.g. the point corresponding to the adopted ultimate or collapse-prevention displacement in the supplied pushover workflow—as \((\Delta_u,V_u)\).</li>
+      <li><b>Draw the first branch.</b> Connect the origin to the idealized yield point. Its slope is the effective elastic stiffness.</li>
+      <li><b>Draw the second branch.</b> Connect the yield point to the ultimate point using the post-yield slope \(K_p\). This branch represents reduced stiffness after yielding.</li>
+      <li><b>Calculate key properties.</b> From the idealized curve determine initial stiffness, post-yield stiffness, yield strength, ultimate strength and displacement ductility.</li>
+      <li><b>Check that the idealization represents the original curve reasonably.</b> The purpose is not to reproduce every local fluctuation; it is to retain the dominant elastic and inelastic response used in subsequent seismic-performance calculations.</li>
+    </ol>
+
+    <div class="formula">K<sub>e</sub> = V<sub>y</sub> / Δ<sub>y</sub>
+
+K<sub>p</sub> = (V<sub>u</sub> − V<sub>y</sub>) / (Δ<sub>u</sub> − Δ<sub>y</sub>)
+
+Ductility, μ = Δ<sub>u</sub> / Δ<sub>y</sub></div>
+
+    <div class="diagram">
+      <svg viewBox="0 0 930 430" aria-label="Bilinear idealization of a nonlinear capacity curve">
+        <defs><marker id="q6a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="95" y1="350" x2="850" y2="350" stroke="#344054" stroke-width="2.5" marker-end="url(#q6a)"/>
+        <line x1="95" y1="350" x2="95" y2="55" stroke="#344054" stroke-width="2.5" marker-end="url(#q6a)"/>
+        <text x="470" y="395" text-anchor="middle" font-weight="900">Roof / control displacement, Δ →</text>
+        <text x="34" y="205" text-anchor="middle" transform="rotate(-90 34 205)" font-weight="900">Base shear, V →</text>
+
+        <path d="M95 350 C155 308,205 245,275 205 C335 171,382 154,430 146 C490 136,540 137,590 146 C655 158,708 176,770 205" fill="none" stroke="#8b95a7" stroke-width="5"/>
+        <line x1="95" y1="350" x2="360" y2="165" stroke="#2457d6" stroke-width="6"/>
+        <line x1="360" y1="165" x2="745" y2="190" stroke="#0f7890" stroke-width="6"/>
+        <circle cx="360" cy="165" r="10" fill="#b42318"/><circle cx="745" cy="190" r="10" fill="#6841c6"/>
+        <line x1="360" y1="165" x2="360" y2="350" stroke="#b42318" stroke-dasharray="6 5"/>
+        <line x1="745" y1="190" x2="745" y2="350" stroke="#6841c6" stroke-dasharray="6 5"/>
+        <text x="375" y="142" font-weight="900" fill="#b42318">Yield (Δy, Vy)</text>
+        <text x="620" y="172" font-weight="900" fill="#6841c6">Ultimate/control point (Δu, Vu)</text>
+        <text x="208" y="255" font-weight="900" fill="#2457d6">Elastic branch Ke</text>
+        <text x="520" y="125" font-weight="900" fill="#0f7890">Post-yield branch Kp</text>
+        <text x="615" y="280" fill="#667085">grey = actual nonlinear curve</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Core figure</span> Actual capacity curve is simplified into two branches so yield and post-yield behaviour are explicit.</div>
+    </div>
+
+    <div class="kgrid">
+      <div class="kbox"><h3>Why it is important</h3><ul>
+        <li>Gives a clear <b>yield point</b>.</li>
+        <li>Separates elastic and inelastic behaviour.</li>
+        <li>Provides effective stiffness and post-yield stiffness.</li>
+        <li>Makes ductility calculation straightforward.</li>
+      </ul></div>
+      <div class="kbox"><h3>How it is used</h3><ul>
+        <li>Simplifies capacity-spectrum / performance-point calculations.</li>
+        <li>Supports comparison of capacity and seismic demand.</li>
+        <li>Makes different structures or retrofit alternatives easier to compare.</li>
+        <li>Reduces a complicated curve to exam-usable engineering parameters.</li>
+      </ul></div>
+    </div>
+
+    <div class="note clarify-note"><strong>Clarification</strong>The scanned answer book does <b>not</b> provide a code-specific equal-area or FEMA/ATC iterative construction rule. Therefore this answer does not pretend that such a specific algorithm was present in the source. It uses the bilinear logic explicitly supported by the answer book and supplied pushover documentation.</div>
+
+    <div class="exam-answer"><h3>Exam-ready conclusion</h3><p>Bilinear idealization is important because it converts a complicated nonlinear capacity curve into a simple model defined mainly by <b>yield strength, yield displacement, post-yield stiffness and ultimate displacement</b>. These parameters are then directly usable in seismic-performance and demand–capacity assessment.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q7</b><br><span class="tag">Fragility curve</span><span class="tag">Damage states</span><span class="tag">PGA/ISDR</span></section><section class="qcard" id="int2-q7">
+  <div class="qhead"><span class="qnum">7</span><h2>Explain step by step procedure in details for derivation of fragility curve.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Define</b>Damage states</div>
+      <div class="bp"><b>2 · Measure</b>IM + response parameter</div>
+      <div class="bp"><b>3 · Estimate</b>Median μ + dispersion β</div>
+      <div class="bp"><b>4 · Plot</b>Probability of exceedance</div>
+    </div>
+
+    <p>A <b>fragility curve</b> gives the probability that a specified damage state is <b>reached or exceeded</b> for a given earthquake intensity measure.</p>
+
+    <div class="formula">P[DS ≥ ds | IM] = Φ { ln(IM / μ<sub>ds</sub>) / β<sub>ds</sub> }
+
+μ<sub>ds</sub> = median intensity causing the damage-state threshold
+β<sub>ds</sub> = logarithmic dispersion
+Φ = standard normal cumulative distribution function</div>
+
+    <h3>Procedure from the supplied answer notes</h3>
+    <ol>
+      <li><b>Define damage states.</b> The answer book uses performance/damage labels such as Immediate Occupancy, Moderate Damage, Life Safety and Collapse Prevention.</li>
+      <li><b>Select an intensity measure (IM).</b> The notes use <b>PGA</b> as the example intensity measure.</li>
+      <li><b>Select the structural response measure.</b> Two routes are shown:
+        <ul>
+          <li><b>Roof-displacement method → SDOF-style response.</b></li>
+          <li><b>Inter-storey drift ratio (ISDR) → storey-by-storey / MDOF response.</b></li>
+        </ul>
+      </li>
+      <li><b>Run or assemble response data at several intensity levels.</b> For each PGA level, obtain the corresponding response (roof displacement or ISDR).</li>
+      <li><b>Compare responses with damage-state thresholds.</b> Determine at which intensities each threshold is reached or exceeded.</li>
+      <li><b>Build the data table.</b> Arrange IM values against exceedance probability for each damage state.</li>
+      <li><b>Estimate the median intensity \(\mu_{ds}\).</b> The notes identify the median as the intensity at which the exceedance probability is about 50%.</li>
+      <li><b>Estimate logarithmic dispersion \(\beta_{ds}\).</b> This describes the spread/uncertainty of the damage-state transition.</li>
+      <li><b>Evaluate the lognormal fragility expression.</b> Compute \(P[DS\ge ds|IM]\) across the required IM range.</li>
+      <li><b>Plot all damage-state curves.</b> Horizontal axis = IM such as PGA; vertical axis = probability of exceedance from 0 to 1.</li>
+    </ol>
+
+    <div class="diagram">
+      <svg viewBox="0 0 950 430" aria-label="Fragility curves for multiple damage states">
+        <defs><marker id="q7a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="100" y1="350" x2="850" y2="350" stroke="#344054" stroke-width="2.5" marker-end="url(#q7a)"/>
+        <line x1="100" y1="350" x2="100" y2="55" stroke="#344054" stroke-width="2.5" marker-end="url(#q7a)"/>
+        <text x="470" y="398" text-anchor="middle" font-weight="900">Intensity measure (e.g., PGA) →</text>
+        <text x="35" y="210" text-anchor="middle" transform="rotate(-90 35 210)" font-weight="900">P[damage state exceeded] →</text>
+        <path d="M100 350 C190 346,235 320,275 255 C310 196,345 112,430 70" fill="none" stroke="#16784c" stroke-width="5"/>
+        <path d="M100 350 C250 348,310 327,355 268 C405 202,455 116,535 70" fill="none" stroke="#a76105" stroke-width="5"/>
+        <path d="M100 350 C320 350,385 336,445 282 C505 225,555 128,635 70" fill="none" stroke="#2457d6" stroke-width="5"/>
+        <path d="M100 350 C390 350,470 341,535 300 C610 250,675 143,760 70" fill="none" stroke="#b42318" stroke-width="5"/>
+        <text x="393" y="98" font-weight="900" fill="#16784c">IO</text><text x="505" y="97" font-weight="900" fill="#a76105">MD</text><text x="610" y="98" font-weight="900" fill="#2457d6">LS</text><text x="752" y="98" font-weight="900" fill="#b42318">CP</text>
+        <line x1="100" y1="210" x2="810" y2="210" stroke="#667085" stroke-dasharray="5 5"/>
+        <text x="820" y="215" fill="#667085">P = 0.5</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Memory hook</span> Higher damage states shift to the right because larger earthquake intensity is generally required to reach them.</div>
+    </div>
+
+    <div class="note source-note"><strong>Source-specific detail</strong>The handwritten notes explicitly show PGA–ISDR tables, roof-displacement and ISDR response routes, the median \(\mu\), logarithmic dispersion \(\beta\), and a family of fragility curves.</div>
+
+    <div class="exam-answer"><h3>Exam-ready conclusion</h3><p>Therefore, fragility derivation requires three linked ingredients: <b>earthquake intensity, structural response/damage thresholds, and statistical uncertainty</b>. The final curve converts these into the probability that each damage state will be exceeded at any selected intensity.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q8</b><br><span class="tag">Repair materials</span><span class="tag">Retrofit materials</span></section><section class="qcard" id="int2-q8">
+  <div class="qhead"><span class="qnum">8</span><h2>Discuss the retrofit and repair materials.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Distinguish</b>Repair vs retrofit</div>
+      <div class="bp"><b>2 · Retrofit</b>Strength / stiffness / ductility</div>
+      <div class="bp"><b>3 · Repair</b>Restore damaged zones</div>
+      <div class="bp"><b>4 · Select</b>Compatibility + purpose</div>
+    </div>
+
+    <p><b>Repair</b> mainly restores damaged material or serviceability, while <b>retrofitting</b> modifies the structural system or members to obtain improved seismic strength, stiffness, ductility or deformation capacity.</p>
+
+    <h3>A. Retrofit materials listed in the supplied answer book</h3>
+    <table>
+      <tr><th>Material / system</th><th>Typical structural role</th></tr>
+      <tr><td><b>CFRP / FRP composites</b></td><td>Wrapping or externally bonded strengthening; useful for confinement and local flexural/shear strengthening where appropriately designed.</td></tr>
+      <tr><td><b>Reinforced concrete for jacketing</b></td><td>Section enlargement of columns, beams or other members; increases strength and stiffness and can improve confinement.</td></tr>
+      <tr><td><b>Reinforced concrete shear walls</b></td><td>Provides a stiff lateral-force-resisting element when added as a global retrofit.</td></tr>
+      <tr><td><b>Steel</b></td><td>Used in jackets, plates, bracing members, battens, lacing and connection strengthening.</td></tr>
+      <tr><td><b>Bracing / batten / lacing components</b></td><td>Usually steel-based systems that create an alternate or strengthened lateral-load path.</td></tr>
+    </table>
+
+    <h3>B. Repair materials listed in the supplied answer book</h3>
+    <table>
+      <tr><th>Material</th><th>Repair purpose</th></tr>
+      <tr><td><b>Grout</b></td><td>Filling cracks, voids or masonry discontinuities where grout injection is suitable.</td></tr>
+      <tr><td><b>Mesh + plaster</b></td><td>Surface repair / local strengthening layer, depending on mesh type, anchorage and substrate.</td></tr>
+      <tr><td><b>Putty / fine repair filler</b></td><td>Minor surface defects and finishing; not a substitute for structural crack treatment.</td></tr>
+      <tr><td><b>Shotcrete</b></td><td>Pneumatically placed cementitious layer used for repair or strengthening where designed.</td></tr>
+      <tr><td><b>Liquid admixture / waterproofing material</b></td><td>Used when moisture protection or improved repair durability is required.</td></tr>
+      <tr><td><b>Epoxy</b></td><td>Crack bonding/injection and adhesive applications when compatible with the crack condition and substrate.</td></tr>
+    </table>
+
+    <div class="diagram">
+      <svg viewBox="0 0 940 320" aria-label="Repair versus retrofit material decision diagram">
+        <defs><marker id="q8a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+        <rect x="30" y="115" width="190" height="80" rx="16" fill="#f3f5fa" stroke="#667085"/><text x="125" y="147" text-anchor="middle" font-weight="900">DAMAGED /</text><text x="125" y="171" text-anchor="middle" font-weight="900">VULNERABLE MEMBER</text>
+        <line x1="220" y1="155" x2="330" y2="100" stroke="#2457d6" stroke-width="3" marker-end="url(#q8a)"/><line x1="220" y1="155" x2="330" y2="220" stroke="#2457d6" stroke-width="3" marker-end="url(#q8a)"/>
+        <rect x="345" y="45" width="240" height="100" rx="16" fill="#eaf8f0" stroke="#16784c" stroke-width="2"/><text x="465" y="78" text-anchor="middle" font-weight="900" fill="#16784c">REPAIR</text><text x="465" y="103" text-anchor="middle">grout · epoxy · mesh/plaster</text><text x="465" y="126" text-anchor="middle">shotcrete · waterproofing</text>
+        <rect x="345" y="180" width="240" height="100" rx="16" fill="#edf3ff" stroke="#2457d6" stroke-width="2"/><text x="465" y="213" text-anchor="middle" font-weight="900" fill="#2457d6">RETROFIT</text><text x="465" y="238" text-anchor="middle">RC · steel · CFRP/FRP</text><text x="465" y="261" text-anchor="middle">bracing · shear wall · jacketing</text>
+        <line x1="585" y1="95" x2="700" y2="95" stroke="#2457d6" stroke-width="3" marker-end="url(#q8a)"/><line x1="585" y1="230" x2="700" y2="230" stroke="#2457d6" stroke-width="3" marker-end="url(#q8a)"/>
+        <rect x="715" y="90" width="190" height="145" rx="16" fill="#fff5df" stroke="#a76105" stroke-width="2"/><text x="810" y="122" text-anchor="middle" font-weight="900">SELECTION CHECK</text><text x="810" y="150" text-anchor="middle">damage + substrate</text><text x="810" y="175" text-anchor="middle">strength/stiffness need</text><text x="810" y="200" text-anchor="middle">compatibility + durability</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Key distinction</span> Repair restores; retrofit upgrades. A material is chosen because of the required structural function, not simply because it is “strong”.</div>
+    </div>
+
+    <div class="note clarify-note"><strong>Scope caution</strong>The answer book supplies the material list but does not provide design equations, product specifications or mix proportions. Those details should not be invented in a 10-mark descriptive answer unless a code or manufacturer source is specifically provided.</div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q9</b><br><span class="tag">Local retrofit</span><span class="tag">Global retrofit</span></section><section class="qcard" id="int2-q9">
+  <div class="qhead"><span class="qnum">9</span><h2>Explain the local and global level retrofitting methods in details.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <p>The central distinction is the <mark>scale of intervention</mark>.</p>
+
+    <div class="kgrid">
+      <div class="kbox"><h3>LOCAL retrofit = member level</h3><p>Targets a deficient beam, column, joint, wall segment or connection while retaining the overall structural system.</p></div>
+      <div class="kbox"><h3>GLOBAL retrofit = structure level</h3><p>Changes the behaviour of the whole building by modifying the lateral system, stiffness distribution or seismic demand.</p></div>
+    </div>
+
+    <h3>A. Local-level methods</h3>
+    <ol>
+      <li><b>Concrete jacketing / section enlargement.</b> Additional reinforcement and concrete are placed around an existing member to increase capacity and confinement.</li>
+      <li><b>Steel jacketing.</b> Steel plates, angles or jackets are attached around a deficient member to improve local strength and ductility.</li>
+      <li><b>FRP / CFRP wrapping.</b> Composite sheets or bands are externally bonded around selected regions to enhance confinement and local capacity while adding little mass.</li>
+      <li><b>Local connection or joint strengthening.</b> Strengthening is concentrated at deficient joints, anchorage zones or member ends where load transfer is inadequate.</li>
+    </ol>
+
+    <h3>B. Global-level methods</h3>
+    <ol>
+      <li><b>Addition of shear walls.</b> New walls increase global lateral stiffness and strength and can reduce storey drift when placed and connected appropriately.</li>
+      <li><b>Steel bracing.</b> Diagonal bracing creates a stronger lateral-force-resisting path and changes the distribution of seismic forces.</li>
+      <li><b>Base isolation.</b> Isolation devices alter the dynamic characteristics of the building so that earthquake demand transferred to the superstructure is reduced.</li>
+      <li><b>Supplemental damping / energy dissipation.</b> Dampers reduce response by dissipating energy, where such a system is selected and designed.</li>
+    </ol>
+
+    <div class="diagram">
+      <svg viewBox="0 0 960 400" aria-label="Local versus global retrofitting">
+        <defs><marker id="q9a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <text x="235" y="32" text-anchor="middle" font-weight="900" font-size="20">LOCAL — strengthen one deficient element</text>
+        <rect x="90" y="70" width="290" height="260" fill="#fbfcfe" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="145" y1="300" x2="145" y2="110" stroke="#667085" stroke-width="10"/><line x1="325" y1="300" x2="325" y2="110" stroke="#667085" stroke-width="10"/>
+        <line x1="145" y1="115" x2="325" y2="115" stroke="#667085" stroke-width="10"/><line x1="145" y1="205" x2="325" y2="205" stroke="#667085" stroke-width="10"/>
+        <rect x="126" y="190" width="38" height="120" fill="none" stroke="#b42318" stroke-width="7"/>
+        <text x="235" y="355" text-anchor="middle" font-weight="900" fill="#b42318">jacketing / FRP on selected column</text>
+
+        <text x="720" y="32" text-anchor="middle" font-weight="900" font-size="20">GLOBAL — change whole-building behaviour</text>
+        <rect x="575" y="70" width="290" height="260" fill="#fbfcfe" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="625" y1="300" x2="625" y2="110" stroke="#667085" stroke-width="8"/><line x1="815" y1="300" x2="815" y2="110" stroke="#667085" stroke-width="8"/>
+        <line x1="625" y1="115" x2="815" y2="115" stroke="#667085" stroke-width="8"/><line x1="625" y1="205" x2="815" y2="205" stroke="#667085" stroke-width="8"/>
+        <line x1="625" y1="300" x2="815" y2="115" stroke="#2457d6" stroke-width="8"/><line x1="815" y1="300" x2="625" y2="115" stroke="#2457d6" stroke-width="8"/>
+        <text x="720" y="355" text-anchor="middle" font-weight="900" fill="#2457d6">new bracing / wall system</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Core distinction</span> Local methods improve selected components; global methods modify the response of the building as a structural system.</div>
+    </div>
+
+    <div class="note source-note"><strong>Drive source confirmation</strong>The STR 715 review paper already stored in Drive explicitly classifies local methods as member-level interventions and global methods as structure-level interventions. It lists concrete/steel/composite local methods and shear walls, steel bracing and base isolation as global methods.</div>
+
+    <div class="exam-answer"><h3>Selection principle</h3><p>Choose a <b>local method</b> when deficiencies are concentrated and the global structural concept remains adequate. Choose a <b>global method</b> when the building lacks sufficient overall lateral strength/stiffness, has excessive drift, or needs its seismic demand or load path changed. Hybrid combinations may be necessary.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Internal Examination — Q10</b><br><span class="tag">Post-Gorkha retrofit</span><span class="tag">Nepal masonry</span><span class="tag">RC retrofit</span></section><section class="qcard" id="int2-q10">
+  <div class="qhead"><span class="qnum">10</span><h2>Write down the detail retrofitting techniques applied after 2015 Gorkha earthquakes in Nepal for improving structural integrity of masonry and RC structures.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="note source-note"><strong>Strongest post-Gorkha source in the Drive collection</strong>The Government of Nepal’s <b>Seismic Retrofitting Guidelines of Buildings in Nepal, 2016</b> were prepared/approved in the post-Gorkha context and explicitly cover adobe/low-strength masonry, masonry and RCC. The guideline lists practical wall, diaphragm, roof, foundation, opening and crack-restoration measures for damaged/vulnerable buildings.</div>
+
+    <div class="note clarify-note"><strong>Evidence rule</strong>The handwritten answer book lists CFRP, jacketing, base isolation, bracing, batten/lacing and shear walls as techniques “applied after 2015”. The Drive literature does <b>not</b> prove that every one of these was widely implemented across Nepal. Therefore the answer below separates <b>Government-guideline/post-Gorkha measures</b>, a <b>documented Shital Niwas case</b>, and <b>broader RC retrofit methods discussed in the STR 715 sources</b>.</div>
+
+    <h3>A. Masonry / low-strength masonry — post-Gorkha guideline measures</h3>
+    <ol>
+      <li><b>Seismic bands / belts.</b> Provide horizontal bands at critical levels to tie walls together and improve box action.</li>
+      <li><b>Gable-wall bands and vertical reinforcing.</b> Strengthen vulnerable gable ends and wall intersections against out-of-plane separation.</li>
+      <li><b>Encasement / strengthening around openings.</b> Reinforce door and window zones where cracking commonly concentrates.</li>
+      <li><b>Wall jacketing / external reinforcement.</b> The Nepal guideline includes polypropylene bands, bamboo reinforcement, cane/rope mesh, wire mesh, polymer mesh and other external strengthening options for low-strength masonry.</li>
+      <li><b>Floor and roof diaphragm stiffening.</b> Improve the connection and in-plane action of floors/roofs so lateral forces are distributed to walls rather than allowing independent wall movement.</li>
+      <li><b>Foundation strengthening.</b> Strengthen the support system where assessment shows inadequate stability or load transfer.</li>
+      <li><b>Control of openings.</b> Infill or strengthen excessive/poorly located openings and provide seismic belts around openings where required.</li>
+      <li><b>Through-elements / bond elements.</b> Improve connection through thick stone masonry and across wall thickness where needed.</li>
+      <li><b>Damage restoration.</b> Use grouting for suitable cracks/voids and seal fine cracks; locally dismantle and rebuild unsafe masonry when repair alone is inadequate.</li>
+    </ol>
+
+    <div class="diagram">
+      <svg viewBox="0 0 950 410" aria-label="Typical post-earthquake masonry retrofit concepts">
+        <defs><marker id="q10a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <rect x="100" y="70" width="390" height="250" fill="#fffdf9" stroke="#8b6f47" stroke-width="3"/>
+        <line x1="100" y1="135" x2="490" y2="135" stroke="#2457d6" stroke-width="14"/><line x1="100" y1="275" x2="490" y2="275" stroke="#2457d6" stroke-width="14"/>
+        <line x1="150" y1="70" x2="150" y2="320" stroke="#b42318" stroke-width="10"/><line x1="440" y1="70" x2="440" y2="320" stroke="#b42318" stroke-width="10"/>
+        <rect x="235" y="165" width="120" height="155" fill="#f7f8fb" stroke="#667085" stroke-width="3"/>
+        <rect x="215" y="150" width="160" height="20" fill="#eaf8f0" stroke="#16784c" stroke-width="2"/>
+        <text x="295" y="47" text-anchor="middle" font-weight="900">MASONRY BOX ACTION</text>
+        <text x="545" y="105" font-weight="900" fill="#2457d6">← horizontal seismic bands</text>
+        <text x="545" y="150" font-weight="900" fill="#b42318">← vertical reinforcement / ties</text>
+        <text x="545" y="198" font-weight="900" fill="#16784c">← strengthened opening zone</text>
+        <text x="545" y="246" font-weight="900">← wall-to-floor / roof connection</text>
+        <text x="545" y="294" font-weight="900">← grout / rebuild damaged masonry</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Guideline concept</span> The central objective is to tie walls, floors and roofs into a connected box and to repair/strengthen damaged wall zones.</div>
+    </div>
+
+    <h3>B. Documented Nepal masonry case: Shital Niwas after the 2015 earthquake</h3>
+    <p>The Shital Niwas study in the STR 715 Drive collection documents that the palace was damaged in the 2015 Gorkha earthquake. After condition assessment and comparison of intervention options, <b>steel plates and CFRP bands</b> were selected for retrofitting. The study also identifies grouting/local reconstruction decisions according to masonry damage severity.</p>
+
+    <h3>C. RC structures — methods supported by the STR 715 RC retrofit sources</h3>
+    <ol>
+      <li><b>RC jacketing / section enlargement.</b> Add reinforcement and concrete around deficient columns or other members to increase strength, stiffness and confinement.</li>
+      <li><b>Steel jacketing.</b> Strengthen selected columns or joints with steel plates/angles/jackets.</li>
+      <li><b>FRP / CFRP wrapping.</b> Improve local confinement and deformation capacity without large added mass.</li>
+      <li><b>Add RC shear walls.</b> Increase global lateral strength/stiffness and reduce excessive drift.</li>
+      <li><b>Add steel bracing.</b> Create a stronger global lateral-load-resisting system and reduce deformation demand on weak frames.</li>
+      <li><b>Base isolation / damping where appropriate.</b> Reduce seismic demand rather than only increasing member capacity; feasibility depends strongly on the building and retrofit objective.</li>
+      <li><b>Strengthen deficient connections and load paths.</b> Beam-column joints, foundations and other weak links must be checked because upgrading one member without a compatible load path can transfer failure elsewhere.</li>
+    </ol>
+
+    <div class="diagram">
+      <svg viewBox="0 0 970 390" aria-label="RC retrofitting techniques">
+        <rect x="75" y="70" width="820" height="245" rx="20" fill="#fbfcfe" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="155" y1="280" x2="155" y2="115" stroke="#667085" stroke-width="18"/><line x1="350" y1="280" x2="350" y2="115" stroke="#667085" stroke-width="18"/>
+        <line x1="155" y1="120" x2="350" y2="120" stroke="#667085" stroke-width="14"/><line x1="155" y1="200" x2="350" y2="200" stroke="#667085" stroke-width="14"/>
+        <rect x="132" y="185" width="46" height="105" fill="none" stroke="#b42318" stroke-width="8"/>
+        <text x="250" y="340" text-anchor="middle" font-weight="900" fill="#b42318">local jacketing / FRP</text>
+
+        <line x1="515" y1="280" x2="515" y2="115" stroke="#667085" stroke-width="12"/><line x1="815" y1="280" x2="815" y2="115" stroke="#667085" stroke-width="12"/>
+        <line x1="515" y1="120" x2="815" y2="120" stroke="#667085" stroke-width="12"/><line x1="515" y1="200" x2="815" y2="200" stroke="#667085" stroke-width="12"/>
+        <line x1="515" y1="280" x2="815" y2="115" stroke="#2457d6" stroke-width="12"/><line x1="815" y1="280" x2="515" y2="115" stroke="#2457d6" stroke-width="12"/>
+        <rect x="620" y="120" width="90" height="160" fill="#eaf9fc" stroke="#0f7890" stroke-width="5"/>
+        <text x="665" y="340" text-anchor="middle" font-weight="900" fill="#2457d6">global bracing + shear wall</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Exam sketch</span> RC retrofit can act locally on a deficient member or globally by adding a new lateral system.</div>
+    </div>
+
+    <div class="exam-answer"><h3>Exam-ready conclusion</h3><p>Post-Gorkha retrofitting in Nepal should be described as a <b>damage-driven and system-driven process</b>: restore cracks and unstable masonry, tie masonry walls/floors/roofs into box action, strengthen openings and diaphragms, and upgrade RC members or the global lateral system through jacketing, FRP, shear walls or bracing as justified by assessment. The strongest Nepal-specific source in this study set is the 2016 Government guideline, while Shital Niwas provides a documented CFRP/steel-plate masonry case.</p></div>
+  </div>
+</section><section class="section-banner"><h2>Final Examination</h2><p>All questions preserved in sequence. Source/clarification boxes remain inside each answer card.</p></section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q1</b><br><span class="tag">Equal displacement rule</span><span class="tag">Equal energy rule</span></section><section class="qcard" id="fin1-q1">
+  <div class="qhead"><span class="qnum">1</span><h2>How are the equal displacement and equal energy rules applied in the performance assessment of structures? Describe with the help of necessary sketches.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Compare</b>Elastic vs inelastic response</div>
+      <div class="bp"><b>2 · Long-period</b>Equal displacement</div>
+      <div class="bp"><b>3 · Short-period</b>Equal energy</div>
+      <div class="bp"><b>4 · Apply</b>Estimate inelastic demand</div>
+    </div>
+
+    <div class="note source-note"><strong>Primary course source</strong>The STR 715 file `peerformance points.pdf` states that the equal-displacement rule assumes nearly equal elastic and inelastic peak displacement for sufficiently long-period structures; it gives approximately <b>T &gt; 0.7 s</b>. It also states that for low-period structures, approximately <b>T &lt; 0.3 s</b>, the equal-energy concept is used, with gradual transition between about 0.3 s and 0.7 s.</div>
+
+    <h3>A. Equal displacement rule</h3>
+    <p>The rule states that, for a structure in the longer-period range, the <mark>maximum displacement of the inelastic system is approximately equal to the maximum displacement of the corresponding elastic system</mark>.</p>
+
+    <div class="formula">Δ<sub>inelastic,max</sub> ≈ Δ<sub>elastic,max</sub>
+
+Course-source relation for the long-period range:
+R<sub>μ</sub> = μ &nbsp;&nbsp; for approximately T &gt; 0.70 s</div>
+
+    <p><b>Application in performance assessment:</b> first determine the elastic spectral displacement demand. For a ductile structure in the range where the rule is applicable, that displacement can be used as an approximation of the inelastic displacement demand. The corresponding point on the capacity curve is then checked against IO / LS / CP deformation limits.</p>
+
+    <div class="diagram">
+      <svg viewBox="0 0 950 390" aria-label="Equal displacement rule sketch">
+        <defs><marker id="ed1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="95" y1="325" x2="855" y2="325" stroke="#344054" stroke-width="2.5" marker-end="url(#ed1)"/>
+        <line x1="95" y1="325" x2="95" y2="55" stroke="#344054" stroke-width="2.5" marker-end="url(#ed1)"/>
+        <text x="475" y="372" text-anchor="middle" font-weight="900">Displacement Δ →</text>
+        <text x="35" y="190" text-anchor="middle" transform="rotate(-90 35 190)" font-weight="900">Force F →</text>
+
+        <line x1="95" y1="325" x2="675" y2="82" stroke="#8b95a7" stroke-width="5"/>
+        <line x1="95" y1="325" x2="335" y2="198" stroke="#2457d6" stroke-width="6"/>
+        <line x1="335" y1="198" x2="675" y2="198" stroke="#2457d6" stroke-width="6"/>
+        <line x1="675" y1="82" x2="675" y2="325" stroke="#b42318" stroke-width="2.5" stroke-dasharray="7 5"/>
+        <circle cx="675" cy="198" r="10" fill="#2457d6"/>
+        <circle cx="675" cy="82" r="10" fill="#8b95a7"/>
+        <text x="690" y="105" font-weight="900" fill="#667085">elastic peak</text>
+        <text x="690" y="220" font-weight="900" fill="#2457d6">inelastic peak</text>
+        <text x="675" y="350" text-anchor="middle" font-weight="900" fill="#b42318">same Δ ≈ equal displacement</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Sketch 1</span> Same peak displacement, but the inelastic system develops lower force and undergoes yielding.</div>
+    </div>
+
+    <h3>B. Equal energy rule</h3>
+    <p>For short-period structures the course source states that the <b>energy represented by the area under the elastic response</b> is taken approximately equal to the <b>energy under the idealized inelastic response</b>. The inelastic displacement therefore need not equal the elastic displacement.</p>
+
+    <div class="formula">Equal-energy concept:
+Area under elastic F–Δ response ≈ Area under inelastic F–Δ response
+
+Use in the supplied notes: approximately T &lt; 0.30 s</div>
+
+    <div class="diagram">
+      <svg viewBox="0 0 950 405" aria-label="Equal energy rule sketch">
+        <defs><marker id="ee1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="95" y1="330" x2="855" y2="330" stroke="#344054" stroke-width="2.5" marker-end="url(#ee1)"/>
+        <line x1="95" y1="330" x2="95" y2="55" stroke="#344054" stroke-width="2.5" marker-end="url(#ee1)"/>
+        <text x="475" y="377" text-anchor="middle" font-weight="900">Displacement Δ →</text>
+        <text x="35" y="195" text-anchor="middle" transform="rotate(-90 35 195)" font-weight="900">Force F →</text>
+        <path d="M95 330 L470 105 L470 330 Z" fill="#fff5df" stroke="#a76105" stroke-width="4" opacity=".78"/>
+        <path d="M95 330 L275 210 L710 210 L710 330 Z" fill="#edf3ff" stroke="#2457d6" stroke-width="4" opacity=".72"/>
+        <text x="350" y="125" font-weight="900" fill="#a76105">Elastic energy area</text>
+        <text x="525" y="250" font-weight="900" fill="#2457d6">Inelastic energy area</text>
+        <text x="500" y="65" text-anchor="middle" font-weight="900" fill="#b42318">Area A ≈ Area B</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Sketch 2</span> The governing idea is equal area/energy, not equal peak displacement.</div>
+    </div>
+
+    <div class="note clarify-note"><strong>Formula caution</strong>The text extraction of the supplied source contains a typographically ambiguous short-period strength–ductility expression. This answer therefore preserves the unambiguous course rule—<b>equal areas/energy for the short-period range</b>—instead of guessing a missing mathematical symbol.</div>
+
+    <div class="exam-answer"><h3>Exam-ready comparison</h3><p><b>Longer period:</b> estimate inelastic displacement using the elastic displacement. <b>Short period:</b> estimate inelastic response by equating elastic and inelastic energy. Both rules are approximations used to translate elastic earthquake demand into expected nonlinear structural response.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q2</b><br><span class="tag">Pushover analysis</span><span class="tag">Time history analysis</span></section><section class="qcard" id="fin1-q2">
+  <div class="qhead"><span class="qnum">2</span><h2>Explain pushover analysis. Why is time history analysis considered superior to other static methods?</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Model</b>Nonlinear structure</div>
+      <div class="bp"><b>2 · Push</b>Increase lateral load</div>
+      <div class="bp"><b>3 · Read</b>Capacity + hinges + drift</div>
+      <div class="bp"><b>4 · Compare</b>Static pushover vs time history</div>
+    </div>
+
+    <p><b>Pushover analysis</b> is a nonlinear static procedure in which the structural model is subjected to gravity load and then to a <mark>monotonically increasing lateral-load pattern</mark> until a target displacement or a significant nonlinear response state is reached.</p>
+
+    <h3>Pushover procedure</h3>
+    <ol>
+      <li>Define geometry, mass, stiffness, material properties and gravity loads.</li>
+      <li>Assign nonlinear properties / plastic hinges to the relevant members.</li>
+      <li>Select a lateral load pattern.</li>
+      <li>Apply lateral load incrementally.</li>
+      <li>At each step record base shear, roof/control displacement, storey drift and hinge formation.</li>
+      <li>Plot the <b>capacity curve</b>: base shear \(V_b\) versus roof displacement \(\Delta_r\).</li>
+      <li>Use the curve to identify yield, post-yield behaviour, weak storeys, ductility and possible failure mechanism.</li>
+      <li>If the capacity-spectrum method is used, convert the response to spectral coordinates and compare capacity with demand.</li>
+    </ol>
+
+    <div class="diagram">
+      <svg viewBox="0 0 950 390" aria-label="Pushover capacity curve">
+        <defs><marker id="po1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="100" y1="330" x2="850" y2="330" stroke="#344054" stroke-width="2.5" marker-end="url(#po1)"/>
+        <line x1="100" y1="330" x2="100" y2="60" stroke="#344054" stroke-width="2.5" marker-end="url(#po1)"/>
+        <path d="M100 330 C170 292,220 238,290 195 C360 151,425 135,500 135 C590 135,660 155,745 195" fill="none" stroke="#2457d6" stroke-width="6"/>
+        <circle cx="315" cy="179" r="10" fill="#b42318"/>
+        <text x="330" y="155" font-weight="900" fill="#b42318">yield / hinge formation</text>
+        <text x="475" y="375" text-anchor="middle" font-weight="900">Roof displacement Δr →</text>
+        <text x="35" y="195" text-anchor="middle" transform="rotate(-90 35 195)" font-weight="900">Base shear Vb →</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Pushover output</span> Capacity curve + sequence of nonlinear response.</div>
+    </div>
+
+    <h3>Why time-history analysis is superior to a static method</h3>
+    <div class="kgrid">
+      <div class="kbox"><h3>Static pushover</h3><ul>
+        <li>Uses an assumed lateral-load pattern.</li>
+        <li>Represents response through a sequence of static equilibrium states.</li>
+        <li>Provides excellent capacity/mechanism insight.</li>
+        <li>Does not reproduce the actual time sequence of earthquake loading.</li>
+      </ul></div>
+      <div class="kbox"><h3>Time-history analysis</h3><ul>
+        <li>Applies an accelerogram as a function of time.</li>
+        <li>Captures duration and frequency content.</li>
+        <li>Can capture repeated load reversals and nonlinear cyclic response.</li>
+        <li>Produces complete histories of displacement, acceleration, drift and force.</li>
+      </ul></div>
+    </div>
+
+    <div class="formula">M ü(t) + C u̇(t) + R[u(t)] = − M r a<sub>g</sub>(t)</div>
+
+    <p>Because the equations of motion are solved step-by-step, nonlinear time-history analysis can represent effects that a single static loading pattern cannot directly reproduce, including <b>time sequence, cyclic loading, frequency content, response reversals, residual deformation and record-to-record variability</b>.</p>
+
+    <div class="note source-note"><strong>Source basis</strong>`Pushover1.pdf` defines pushover as nonlinear static analysis and describes the capacity-curve workflow. `seismic_assessment_final.pdf` states that time-history analysis captures nonlinear behaviour, full duration and frequency content, whereas static methods miss time-dependent response.</div>
+
+    <div class="exam-answer"><h3>Balanced conclusion</h3><p>Time-history analysis is considered more complete, not automatically “better in every practical situation.” It requires reliable nonlinear modelling and suitable earthquake records. Pushover remains valuable because it is simpler and clearly exposes structural capacity and failure mechanisms.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q3</b><br><span class="tag">Performance point outputs</span><span class="tag">Capacity idealization</span></section><section class="qcard" id="fin1-q3">
+  <div class="qhead"><span class="qnum">3</span><h2>What types of information can be extracted from the performance point? Why is the idealization of the capacity curve necessary for the seismic assessment of structures?</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Locate</b>Capacity-demand intersection</div>
+      <div class="bp"><b>2 · Read</b>Sa + Sd / displacement + force</div>
+      <div class="bp"><b>3 · Judge</b>IO / LS / CP</div>
+      <div class="bp"><b>4 · Idealize</b>Extract yield + ductility</div>
+    </div>
+
+    <p>The <b>performance point</b> is the compatible intersection of the capacity spectrum and the seismic demand spectrum. It is an estimate of the expected maximum structural response at the selected earthquake demand.</p>
+
+    <h3>Information obtained from the performance point</h3>
+    <ul>
+      <li><b>Spectral displacement, S<sub>d</sub></b> — related to structural displacement demand.</li>
+      <li><b>Spectral acceleration, S<sub>a</sub></b> — related to force/base-shear demand.</li>
+      <li><b>Expected roof/control displacement</b> after conversion from the equivalent SDOF representation.</li>
+      <li><b>Expected storey drift / deformation demand</b> to be checked against limits.</li>
+      <li><b>Performance level</b> — whether response lies in or beyond IO, LS, CP or another adopted limit state.</li>
+      <li><b>Nonlinear state</b> — approximate extent of post-yield response and hinge/deformation demand.</li>
+      <li><b>Adequacy of retrofit / existing structure</b> when the predicted response is compared with the target performance objective.</li>
+    </ul>
+
+    <div class="diagram">
+      <svg viewBox="0 0 940 430" aria-label="Capacity demand performance point">
+        <defs><marker id="pp1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="95" y1="350" x2="845" y2="350" stroke="#344054" stroke-width="2.5" marker-end="url(#pp1)"/>
+        <line x1="95" y1="350" x2="95" y2="55" stroke="#344054" stroke-width="2.5" marker-end="url(#pp1)"/>
+        <path d="M95 350 C190 280,270 205,360 165 C450 125,545 122,660 145" fill="none" stroke="#2457d6" stroke-width="6"/>
+        <path d="M115 90 C260 122,365 170,455 220 C555 275,650 315,790 340" fill="none" stroke="#a76105" stroke-width="6"/>
+        <circle cx="409" cy="191" r="12" fill="#b42318"/>
+        <line x1="409" y1="191" x2="409" y2="350" stroke="#b42318" stroke-width="2" stroke-dasharray="6 5"/>
+        <line x1="95" y1="191" x2="409" y2="191" stroke="#b42318" stroke-width="2" stroke-dasharray="6 5"/>
+        <text x="420" y="172" font-weight="900" fill="#b42318">Performance point</text>
+        <text x="540" y="135" font-weight="900" fill="#2457d6">capacity</text>
+        <text x="620" y="305" font-weight="900" fill="#a76105">demand</text>
+        <text x="470" y="399" text-anchor="middle" font-weight="900">Spectral displacement Sd →</text>
+        <text x="35" y="205" text-anchor="middle" transform="rotate(-90 35 205)" font-weight="900">Spectral acceleration Sa →</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Core figure</span> The coordinates of the intersection are the principal spectral demand outputs.</div>
+    </div>
+
+    <h3>Why capacity-curve idealization is necessary</h3>
+    <ol>
+      <li>The raw pushover curve is nonlinear and may contain many local slope changes.</li>
+      <li>A bilinear idealization reduces it to an <b>elastic branch + post-yield branch</b>.</li>
+      <li>It gives a defined <b>yield force and yield displacement</b>.</li>
+      <li>It provides effective stiffness, post-yield behaviour and ductility.</li>
+      <li>It simplifies conversion to an equivalent SDOF / spectral representation used in performance-point calculations.</li>
+      <li>The supplied course material uses the <b>equal-energy concept</b> so that the area under the actual and idealized force–deformation curves is kept equal when locating the significant yield point.</li>
+    </ol>
+
+    <div class="formula">From the idealized capacity curve:
+K<sub>e</sub> = V<sub>y</sub>/Δ<sub>y</sub>
+&nbsp;&nbsp;&nbsp;&nbsp;
+μ = Δ<sub>u</sub>/Δ<sub>y</sub></div>
+
+    <div class="note source-note"><strong>Course-source example</strong>`peerformance points.pdf` gives an example performance point in spectral coordinates and explicitly says bilinear idealization is used to judge yield displacement / yield base shear, with equal area under actual and idealized curves.</div>
+
+    <div class="exam-answer"><h3>Exam-ready conclusion</h3><p>The performance point tells us <b>how much response the earthquake is expected to demand</b>; idealization tells us <b>where yielding begins and how much nonlinear deformation capacity is available</b>. Together they allow performance assessment against IO / LS / CP limits.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q4</b><br><span class="tag">Empirical fragility</span><span class="tag">Lognormal function</span></section><section class="qcard" id="fin1-q4">
+  <div class="qhead"><span class="qnum">4</span><h2>Define fragility analysis. How are fragility curves derived empirically? Write down the detailed procedure with appropriate relationships/expressions.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Observe</b>Real earthquake damage</div>
+      <div class="bp"><b>2 · Classify</b>Building + damage states</div>
+      <div class="bp"><b>3 · Link</b>Damage to intensity measure</div>
+      <div class="bp"><b>4 · Fit</b>Statistical fragility function</div>
+    </div>
+
+    <p><b>Fragility analysis</b> expresses the <mark>probability that a structure reaches or exceeds a specified damage state for a given earthquake intensity measure</mark>.</p>
+
+    <div class="note source-note"><strong>Empirical basis</strong>The Drive paper `Derive empirical fragility functions for Nepali residential buildings.pdf` states that empirical fragility functions rely on <b>real earthquake damage data</b>. It derives functions from damage records for major Nepali earthquakes and treats fragility as the conditional probability of reaching/exceeding a damage state as a function of an intensity/demand parameter.</div>
+
+    <h3>Detailed empirical derivation procedure</h3>
+    <ol>
+      <li><b>Collect post-earthquake damage data.</b> Record a sufficiently large building inventory from one or more earthquake events.</li>
+      <li><b>Define homogeneous building classes.</b> Separate RC, brick masonry, stone masonry or other typologies so unlike structural systems are not mixed indiscriminately.</li>
+      <li><b>Define damage classes / states.</b> Establish consistent categories such as slight, moderate, extensive and complete/collapse.</li>
+      <li><b>Choose the intensity measure (IM).</b> The Nepali empirical paper uses measures such as <b>PGA</b> and spectral acceleration.</li>
+      <li><b>Estimate IM for each location / observation.</b> Where measurements are sparse, the selected ground-motion model is used consistently to estimate intensity.</li>
+      <li><b>De-aggregate / bin the database.</b> Group buildings by typology, damage state and intensity level so the fraction exceeding each damage state can be calculated.</li>
+      <li><b>Form empirical exceedance probabilities.</b> For damage state \(ds\) and intensity bin \(IM_j\), estimate the proportion of buildings reaching or exceeding that state.</li>
+      <li><b>Select and test the statistical distribution.</b> The Nepali study tests normality of transformed data with the <b>Anderson–Darling test</b> and finds the lognormal model suitable for its database.</li>
+      <li><b>Estimate lognormal parameters.</b> Determine the median \(\mu_{ds}\) and logarithmic standard deviation / dispersion \(\zeta_{ds}\) for each damage state.</li>
+      <li><b>Construct the fragility function.</b> Evaluate the cumulative probability over the required intensity range and plot one curve for each damage state.</li>
+      <li><b>Validate / compare.</b> Compare the fitted curves with observed damage trends and recognize that empirical functions are strongly dependent on region, building class and data quality.</li>
+    </ol>
+
+    <div class="formula">Empirical lognormal fragility relationship:
+
+F<sub>D</sub>(ds) = Φ [ ( ln D − ln μ<sub>ds</sub> ) / ζ<sub>ds</sub> ]
+
+where:
+F<sub>D</sub>(ds) = conditional probability of damage state ds or greater
+D = demand / intensity parameter
+μ<sub>ds</sub> = median parameter for damage state ds
+ζ<sub>ds</sub> = logarithmic standard deviation
+Φ = standard normal cumulative distribution function</div>
+
+    <div class="diagram">
+      <svg viewBox="0 0 950 420" aria-label="Empirical fragility curves">
+        <defs><marker id="fr1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+        <line x1="100" y1="345" x2="850" y2="345" stroke="#344054" stroke-width="2.5" marker-end="url(#fr1)"/>
+        <line x1="100" y1="345" x2="100" y2="55" stroke="#344054" stroke-width="2.5" marker-end="url(#fr1)"/>
+        <path d="M105 342 C180 338,220 310,270 240 C315 175,350 105,425 70" fill="none" stroke="#16784c" stroke-width="5"/>
+        <path d="M105 344 C245 341,300 315,355 250 C410 187,450 115,530 72" fill="none" stroke="#a76105" stroke-width="5"/>
+        <path d="M105 345 C315 344,380 325,440 270 C500 215,545 135,630 75" fill="none" stroke="#2457d6" stroke-width="5"/>
+        <path d="M105 345 C390 345,470 335,535 292 C610 241,670 145,760 78" fill="none" stroke="#b42318" stroke-width="5"/>
+        <text x="400" y="93" font-weight="900" fill="#16784c">slight</text>
+        <text x="500" y="95" font-weight="900" fill="#a76105">moderate</text>
+        <text x="610" y="101" font-weight="900" fill="#2457d6">extensive</text>
+        <text x="755" y="105" font-weight="900" fill="#b42318">complete</text>
+        <text x="475" y="392" text-anchor="middle" font-weight="900">Intensity measure IM (e.g., PGA) →</text>
+        <text x="35" y="205" text-anchor="middle" transform="rotate(-90 35 205)" font-weight="900">P[DS ≥ ds | IM] →</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-memory">Interpretation</span> For any selected IM, move vertically to a damage-state curve and read the probability of exceedance.</div>
+    </div>
+
+    <div class="note clarify-note"><strong>Empirical ≠ analytical</strong>Do not describe an empirical fragility curve as if it came primarily from a finite-element pushover/IDA model. In the supplied Nepali empirical paper, the defining input is <b>observed earthquake damage statistics</b>; modelling may support IM estimation, but the damage evidence is empirical.</div>
+
+    <div class="exam-answer"><h3>Exam-ready conclusion</h3><p>Empirical fragility derivation converts a real post-earthquake database into probabilistic damage functions by consistently classifying buildings/damage, assigning earthquake intensity, calculating exceedance proportions and fitting a validated statistical distribution.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q5</b><br><span class="tag">NDT</span><span class="tag">Rebound hammer</span><span class="tag">UPV</span></section><section class="qcard" id="fin1-q5">
+  <div class="qhead"><span class="qnum">5</span><h2>What types of information can be obtained from non-destructive testing (NDT)? Explain any two NDT methods with necessary sketches.</h2><span class="marks">10 marks</span></div>
+  <div class="qbody">
+    <div class="blueprint">
+      <div class="bp"><b>1 · Purpose</b>Assess without major damage</div>
+      <div class="bp"><b>2 · Information</b>Strength + defects + reinforcement</div>
+      <div class="bp"><b>3 · Method 1</b>Rebound hammer</div>
+      <div class="bp"><b>4 · Method 2</b>UPV</div>
+    </div>
+
+    <p><b>Non-destructive testing (NDT)</b> evaluates material or structural condition while causing little or no permanent damage to the member being investigated.</p>
+
+    <h3>Information obtainable from NDT</h3>
+    <ul>
+      <li><b>Concrete surface hardness / indicative compressive strength</b> through calibrated correlations.</li>
+      <li><b>Uniformity and quality of concrete.</b></li>
+      <li><b>Internal defects</b> such as cracks, voids, honeycombing or discontinuities.</li>
+      <li><b>Reinforcement information</b> such as location and cover depth when the appropriate locating instrument is used.</li>
+      <li><b>Corrosion-related condition</b> when electrochemical NDT techniques are used.</li>
+      <li><b>Comparative condition of different zones</b> to identify areas needing cores, opening-up or detailed repair.</li>
+    </ul>
+
+    <h3>Method 1 — Rebound hammer</h3>
+    <p><b>Principle:</b> a spring-driven mass impacts the concrete surface. The rebound of the mass is measured as a <b>rebound number/index</b>. A calibration relationship is then used to estimate or compare surface hardness and indicative concrete strength.</p>
+
+    <div class="diagram">
+      <svg viewBox="0 0 940 330" aria-label="Rebound hammer test sketch">
+        <defs><marker id="rh1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+        <rect x="630" y="55" width="230" height="220" rx="10" fill="#f1f2f5" stroke="#667085" stroke-width="3"/>
+        <text x="745" y="170" text-anchor="middle" font-weight="900">CONCRETE</text>
+        <rect x="190" y="120" width="300" height="70" rx="32" fill="#edf3ff" stroke="#2457d6" stroke-width="3"/>
+        <line x1="490" y1="155" x2="630" y2="155" stroke="#2457d6" stroke-width="7" marker-end="url(#rh1)"/>
+        <line x1="535" y1="215" x2="395" y2="215" stroke="#b42318" stroke-width="5" marker-end="url(#rh1)"/>
+        <text x="335" y="105" text-anchor="middle" font-weight="900" fill="#2457d6">spring-driven hammer</text>
+        <text x="555" y="135" font-weight="900" fill="#2457d6">impact →</text>
+        <text x="455" y="248" text-anchor="middle" font-weight="900" fill="#b42318">← rebound</text>
+        <text x="335" y="290" text-anchor="middle">Read rebound index R → use calibration</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">Rebound hammer</span> Fast and portable; mainly reflects near-surface hardness, so surface condition affects interpretation.</div>
+    </div>
+
+    <h3>Method 2 — Ultrasonic Pulse Velocity (UPV)</h3>
+    <p><b>Principle:</b> a transmitter sends an ultrasonic pulse through the concrete and a receiver measures the travel time. If the travel path length is \(L\) and travel time is \(t\), pulse velocity is:</p>
+
+    <div class="formula">V = L / t</div>
+
+    <p>Higher, consistent velocity generally indicates denser and more continuous concrete; unusually low or locally reduced velocity can indicate poor quality or defects. UPV is particularly useful for <b>uniformity assessment and detecting internal discontinuities</b>.</p>
+
+    <div class="diagram">
+      <svg viewBox="0 0 940 330" aria-label="Ultrasonic pulse velocity test sketch">
+        <defs><marker id="upv1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0f7890"/></marker></defs>
+        <rect x="300" y="70" width="340" height="190" rx="12" fill="#f3f5fa" stroke="#667085" stroke-width="3"/>
+        <rect x="180" y="125" width="105" height="78" rx="10" fill="#eaf9fc" stroke="#0f7890" stroke-width="3"/>
+        <rect x="655" y="125" width="105" height="78" rx="10" fill="#eaf9fc" stroke="#0f7890" stroke-width="3"/>
+        <text x="232" y="157" text-anchor="middle" font-weight="900">TX</text>
+        <text x="707" y="157" text-anchor="middle" font-weight="900">RX</text>
+        <line x1="285" y1="164" x2="655" y2="164" stroke="#0f7890" stroke-width="6" marker-end="url(#upv1)"/>
+        <path d="M405 105 C430 135,430 195,405 225 M535 105 C510 135,510 195,535 225" fill="none" stroke="#b42318" stroke-width="4"/>
+        <text x="470" y="46" text-anchor="middle" font-weight="900">Concrete member</text>
+        <text x="470" y="295" text-anchor="middle" font-weight="900">Known path L + measured transit time t → V = L/t</text>
+        <text x="470" y="155" text-anchor="middle" fill="#b42318" font-weight="900">crack / void alters pulse path</text>
+      </svg>
+      <div class="caption"><span class="ribbon r-source">UPV</span> Pulse transmission through the member provides information about internal continuity and relative concrete quality.</div>
+    </div>
+
+    <table>
+      <tr><th>Feature</th><th>Rebound hammer</th><th>UPV</th></tr>
+      <tr><td>Primary measurement</td><td>Rebound index</td><td>Pulse travel time / velocity</td></tr>
+      <tr><td>Best use</td><td>Rapid surface hardness / comparative strength indication</td><td>Uniformity + internal continuity / defect indication</td></tr>
+      <tr><td>Main caution</td><td>Surface condition and carbonation influence result</td><td>Moisture, path geometry, coupling and reinforcement can influence readings</td></tr>
+    </table>
+
+    <div class="note source-note"><strong>Source basis</strong>`seismic_assessment_final.pdf` explicitly identifies rebound hammer and UPV as the two NDT methods, and lists material strength, internal defects, reinforcement details and corrosion condition among information obtainable from NDT.</div>
+
+    <div class="exam-answer"><h3>Exam-ready conclusion</h3><p>No single NDT method gives a complete structural diagnosis. A reliable assessment combines test results, visual inspection and—where necessary—targeted destructive verification such as cores. Rebound hammer and UPV are complementary because one is predominantly a surface-hardness indicator while the other probes wave transmission through the member.</p></div>
+  </div>
+</section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q6</b><br><span class="tag">SHM</span><span class="tag">Sensors</span><span class="tag">Historical structures</span></section><section class="qcard" id="fin2-q6">
+<div class="qhead"><span class="qnum">6</span><h2>Define structural health monitoring (SHM). Describe the detailed procedure for the seismic assessment of historical structures using sensors.</h2><span class="marks">10 marks</span></div>
+<div class="qbody">
+<div class="blueprint"><div class="bp"><b>1 · Baseline</b>Document existing condition</div><div class="bp"><b>2 · Instrument</b>Place sensors</div><div class="bp"><b>3 · Extract</b>Modal features</div><div class="bp"><b>4 · Compare</b>Detect change / damage</div></div>
+
+<p><b>Structural Health Monitoring (SHM)</b> is the process of implementing a <mark>damage-detection and damage-characterization strategy for an engineering structure</mark>. The supplied SHM notes organize the process around health monitoring, operational evaluation, data-feature extraction and statistical/model development.</p>
+
+<div class="note source-note"><strong>Source anchor</strong>`SHM.pdf` defines SHM this way and states that damage may alter displacement, acceleration, strain, natural frequencies, mode shapes, damping and modal strain energy. It also lists accelerometers, displacement sensors, seismometers and strain gauges among available sensors.</div>
+
+<h3>Procedure for a historical structure</h3>
+<ol>
+<li><b>Historical/structural documentation.</b> Record geometry, construction materials, previous alterations, visible cracks, wall/floor connections and known earthquake damage.</li>
+<li><b>Establish baseline condition.</b> Perform visual inspection and, where justified, non-destructive evaluation so pre-existing defects are known before interpreting sensor data.</li>
+<li><b>Define monitoring objectives.</b> Decide whether the goal is to detect damage existence, locate it, quantify severity, assess post-earthquake integrity, or update a structural model.</li>
+<li><b>Select measurable response quantities.</b> Choose acceleration, displacement, velocity and/or strain according to the monitoring objective.</li>
+<li><b>Plan sensor locations.</b> Place sensors at floors, roofs, major wall lines or other strategic locations so global modes and critical local response can be observed.</li>
+<li><b>Acquire baseline vibration data.</b> Record ambient/forced vibration or other controlled measurements before a damaging event.</li>
+<li><b>Process the records.</b> Filter noise, transform time histories where needed, and identify natural frequencies, mode shapes and damping.</li>
+<li><b>Compare measured features with the baseline.</b> Significant changes in stiffness-sensitive quantities—especially modal properties—may indicate damage.</li>
+<li><b>Update/validate the structural model.</b> The supplied SHM notes describe finite-element model updating by adjusting structural parameters until measured and analytical modal properties agree sufficiently.</li>
+<li><b>Post-earthquake reassessment.</b> Repeat measurements after an earthquake and compare with the baseline; combine sensor results with visual/NDT evidence before making a safety or retrofit decision.</li>
+</ol>
+
+<div class="diagram"><svg viewBox="0 0 980 360" aria-label="SHM sensor chain">
+<defs><marker id="s1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+<rect x="35" y="120" width="155" height="85" rx="14" fill="#edf3ff" stroke="#2457d6"/><text x="112" y="151" text-anchor="middle" font-weight="900">STRUCTURE</text><text x="112" y="178" text-anchor="middle">historical fabric</text>
+<line x1="190" y1="162" x2="285" y2="162" stroke="#2457d6" stroke-width="3" marker-end="url(#s1)"/>
+<rect x="295" y="90" width="190" height="145" rx="14" fill="#eaf9fc" stroke="#0f7890"/><text x="390" y="122" text-anchor="middle" font-weight="900">SENSORS</text><text x="390" y="150" text-anchor="middle">accelerometer</text><text x="390" y="175" text-anchor="middle">LVDT / displacement</text><text x="390" y="200" text-anchor="middle">strain gauge</text>
+<line x1="485" y1="162" x2="575" y2="162" stroke="#2457d6" stroke-width="3" marker-end="url(#s1)"/>
+<rect x="585" y="105" width="170" height="115" rx="14" fill="#f2efff" stroke="#6841c6"/><text x="670" y="140" text-anchor="middle" font-weight="900">DAQ + DSP</text><text x="670" y="170" text-anchor="middle">filter · FFT · identify</text><text x="670" y="195" text-anchor="middle">fn · ξ · mode shapes</text>
+<line x1="755" y1="162" x2="835" y2="162" stroke="#2457d6" stroke-width="3" marker-end="url(#s1)"/>
+<rect x="845" y="115" width="105" height="95" rx="14" fill="#fff0ef" stroke="#b42318"/><text x="897" y="148" text-anchor="middle" font-weight="900">DAMAGE</text><text x="897" y="177" text-anchor="middle">compare</text><text x="897" y="197" text-anchor="middle">baseline</text>
+</svg><div class="caption"><span class="ribbon r-memory">Memory chain</span> Structure → Sensors → DAQ/DSP → modal features → baseline comparison → damage decision.</div></div>
+
+<div class="note clarify-note"><strong>Historical-structure caution</strong>The supplied SHM file is a general SHM source; it does not prescribe a heritage-specific sensor layout. Therefore exact sensor counts, spacing or attachment methods are not invented here.</div>
+<div class="exam-answer"><h3>Exam-ready conclusion</h3><p>For a historical structure, sensor-based seismic assessment should be used as a <b>non-destructive evidence chain</b>: document the structure, establish a baseline, instrument it, extract response features, compare pre-/post-event behaviour, update the model, and combine the result with inspection before intervention.</p></div>
+</div></section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q7</b><br><span class="tag">Pokhara RC vulnerability</span><span class="tag">Field survey</span><span class="tag">Pushover</span></section><section class="qcard" id="fin2-q7">
+<div class="qhead"><span class="qnum">7</span><h2>As a structural engineer, how would you assess the vulnerability of reinforced concrete structures located in Pokhara Valley?</h2><span class="marks">10 marks</span></div>
+<div class="qbody">
+<div class="blueprint"><div class="bp"><b>1 · Inventory</b>Typology + site</div><div class="bp"><b>2 · Screen</b>RVS + deficiencies</div><div class="bp"><b>3 · Analyse</b>Model + pushover/THA</div><div class="bp"><b>4 · Decide</b>Vulnerability + retrofit</div></div>
+
+<div class="note source-note"><strong>Pokhara-specific source</strong>The Drive thesis proposal `Seismic Vulnerability Assessment and Retrofitting Strategies for Non-Engineered RC Buildings in Pokhara Metropolitan City` explicitly proposes field survey, typology classification, ETABS/SAP2000 modelling, modal analysis, pushover analysis, selective time-history checks and comparison of retrofit alternatives.</div>
+
+<h3>Assessment workflow</h3>
+<ol>
+<li><b>Define the study area and building inventory.</b> Classify representative low-/medium-rise RC building typologies, age, storeys, occupancy, structural system and apparent construction quality.</li>
+<li><b>Collect field and municipal information.</b> Obtain drawings where available; otherwise measure geometry and record column sizes, beam sizes, infill arrangement, openings and visible irregularities.</li>
+<li><b>Record Pokhara-relevant deficiencies.</b> The supplied proposal highlights soft storeys, poor seismic detailing, inadequate column/joint shear capacity, undersized columns and structural irregularities as important vulnerabilities in non-engineered RC stock.</li>
+<li><b>Include site/soil information.</b> Classify the site using available geological/geotechnical information because Pokhara’s urban/geotechnical context is explicitly part of the local assessment problem.</li>
+<li><b>Carry out rapid visual screening.</b> Note soft storey, torsional irregularity, short/captive columns, pounding potential, poor construction and deterioration.</li>
+<li><b>Obtain material/property information.</b> Use available records and NDT/field evidence to reduce uncertainty in concrete strength, reinforcement and deterioration.</li>
+<li><b>Create analytical models.</b> Build representative 3-D models in ETABS/SAP2000 or equivalent.</li>
+<li><b>Run modal analysis.</b> Obtain periods and mode shapes and identify irregular dynamic behaviour.</li>
+<li><b>Run nonlinear static pushover.</b> Obtain capacity curves, performance point, target displacement, drift and probable hinge/failure mechanisms.</li>
+<li><b>Use selective nonlinear dynamic checks for critical cases.</b> Time-history or IDA-type checks can be used when the static method is insufficient for a critical typology.</li>
+<li><b>Quantify vulnerability.</b> Compare base-shear capacity, displacement capacity, ductility, inter-storey drift, damage indices and—where developed—fragility probabilities.</li>
+<li><b>Prioritize retrofit.</b> Select local/global interventions according to the controlling deficiency and verify the retrofitted model.</li>
+</ol>
+
+<div class="diagram"><svg viewBox="0 0 980 345" aria-label="Pokhara RC vulnerability workflow">
+<defs><marker id="p7" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+<rect x="25" y="120" width="140" height="80" rx="13" fill="#edf3ff" stroke="#2457d6"/><text x="95" y="150" text-anchor="middle" font-weight="900">FIELD</text><text x="95" y="176" text-anchor="middle">inventory + RVS</text>
+<line x1="165" y1="160" x2="235" y2="160" stroke="#2457d6" stroke-width="3" marker-end="url(#p7)"/>
+<rect x="245" y="120" width="150" height="80" rx="13" fill="#eaf9fc" stroke="#0f7890"/><text x="320" y="150" text-anchor="middle" font-weight="900">SITE</text><text x="320" y="176" text-anchor="middle">soil + hazard</text>
+<line x1="395" y1="160" x2="465" y2="160" stroke="#2457d6" stroke-width="3" marker-end="url(#p7)"/>
+<rect x="475" y="100" width="170" height="120" rx="13" fill="#f2efff" stroke="#6841c6"/><text x="560" y="135" text-anchor="middle" font-weight="900">MODEL</text><text x="560" y="163" text-anchor="middle">modal</text><text x="560" y="188" text-anchor="middle">pushover / THA</text>
+<line x1="645" y1="160" x2="715" y2="160" stroke="#2457d6" stroke-width="3" marker-end="url(#p7)"/>
+<rect x="725" y="100" width="215" height="120" rx="13" fill="#fff5df" stroke="#a76105"/><text x="832" y="135" text-anchor="middle" font-weight="900">VULNERABILITY</text><text x="832" y="163" text-anchor="middle">drift · capacity · hinges</text><text x="832" y="188" text-anchor="middle">fragility · retrofit priority</text>
+</svg><div class="caption"><span class="ribbon r-source">Pokhara workflow</span> Do not jump straight to software; vulnerability begins with typology, site and observed deficiency.</div></div>
+
+<div class="note clarify-note"><strong>Scope caution</strong>The Pokhara thesis proposal is a proposed methodology, not a completed citywide vulnerability database. Therefore this answer uses it as a procedure source, not as proof of final vulnerability results for all Pokhara RC buildings.</div>
+</div></section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q8</b><br><span class="tag">Repair/retrofit criteria</span><span class="tag">Verification</span></section><section class="qcard" id="fin2-q8">
+<div class="qhead"><span class="qnum">8</span><h2>State the criteria for the repair and retrofitting of structures.</h2><span class="marks">10 marks</span></div>
+<div class="qbody">
+<p><b>Repair/retrofit criteria</b> are the conditions used to decide <mark>whether intervention is required, what level of intervention is justified, and whether the selected scheme achieves the target performance</mark>.</p>
+
+<table><tr><th>Criterion</th><th>What to check</th><th>Decision implication</th></tr>
+<tr><td><b>Structural deficiency</b></td><td>Capacity, detailing, load path, member weakness</td><td>Deficient components/system require intervention.</td></tr>
+<tr><td><b>Performance gap</b></td><td>Expected response versus IO / LS / CP target</td><td>If target is not met, retrofit is required.</td></tr>
+<tr><td><b>Visible distress</b></td><td>Cracks, corrosion, settlement, spalling, deterioration</td><td>Repair and/or strengthening depending on cause/severity.</td></tr>
+<tr><td><b>Building importance</b></td><td>Hospital, school, emergency/critical use</td><td>Higher functionality target may be needed.</td></tr>
+<tr><td><b>Code / guideline compliance</b></td><td>Applicable evaluation and retrofit requirements</td><td>Deficiencies against adopted criteria must be addressed.</td></tr>
+<tr><td><b>Feasibility</b></td><td>Constructability, access, downtime, architectural impact</td><td>Reject technically impractical schemes.</td></tr>
+<tr><td><b>Economics</b></td><td>Retrofit cost versus benefit/replacement</td><td>Supports selection between repair, retrofit or replacement.</td></tr>
+<tr><td><b>Post-retrofit verification</b></td><td>Reanalysis of capacity, drift and performance</td><td>Scheme is accepted only if it closes the identified gap.</td></tr></table>
+
+<div class="diagram"><svg viewBox="0 0 970 330" aria-label="Repair retrofit decision flow">
+<defs><marker id="r8" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+<rect x="25" y="115" width="170" height="80" rx="14" fill="#edf3ff" stroke="#2457d6"/><text x="110" y="146" text-anchor="middle" font-weight="900">ASSESS</text><text x="110" y="174" text-anchor="middle">damage + capacity</text>
+<line x1="195" y1="155" x2="275" y2="155" stroke="#2457d6" stroke-width="3" marker-end="url(#r8)"/>
+<rect x="285" y="105" width="180" height="100" rx="14" fill="#fff5df" stroke="#a76105"/><text x="375" y="140" text-anchor="middle" font-weight="900">GAP?</text><text x="375" y="170" text-anchor="middle">target performance</text>
+<line x1="465" y1="155" x2="545" y2="155" stroke="#2457d6" stroke-width="3" marker-end="url(#r8)"/>
+<rect x="555" y="100" width="180" height="110" rx="14" fill="#f2efff" stroke="#6841c6"/><text x="645" y="135" text-anchor="middle" font-weight="900">SELECT</text><text x="645" y="164" text-anchor="middle">repair / local</text><text x="645" y="188" text-anchor="middle">global retrofit</text>
+<line x1="735" y1="155" x2="805" y2="155" stroke="#2457d6" stroke-width="3" marker-end="url(#r8)"/>
+<rect x="815" y="115" width="130" height="80" rx="14" fill="#eaf8f0" stroke="#16784c"/><text x="880" y="146" text-anchor="middle" font-weight="900">VERIFY</text><text x="880" y="174" text-anchor="middle">post-retrofit</text>
+</svg><div class="caption"><span class="ribbon r-memory">Decision logic</span> Assess → identify performance gap → select feasible intervention → reanalyse and verify.</div></div>
+
+<div class="note source-note"><strong>Source basis</strong>`seismic_assessment_final.pdf` explicitly lists structural deficiency, performance gap, building importance, visible distress and code compliance among repair/retrofit criteria, and its flowchart ends with post-retrofit performance verification.</div>
+<div class="note clarify-note"><strong>Cost rule caution</strong>The same study note mentions an approximate replacement-cost rule as a “typical rule.” This answer does not present that percentage as a universal engineering criterion because the source itself does not establish it as a mandatory Nepal-wide threshold.</div>
+</div></section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q9</b><br><span class="tag">Nepal masonry vulnerability</span><span class="tag">Heritage retrofit</span></section><section class="qcard" id="fin2-q9">
+<div class="qhead"><span class="qnum">9</span><h2>Why are most masonry structures in Nepal vulnerable during earthquakes? Describe the retrofitting methods used for heritage structures.</h2><span class="marks">10 marks</span></div>
+<div class="qbody">
+<div class="kgrid">
+<div class="kbox"><h3>Why Nepal masonry is vulnerable</h3><ul>
+<li>Unreinforced or lightly tied walls → brittle behaviour.</li>
+<li>Mud / weak mortar → low tensile and bond capacity.</li>
+<li>Poor wall-to-wall and wall-to-floor/roof connections → loss of box action.</li>
+<li>Flexible timber floors/roofs may not distribute lateral forces effectively.</li>
+<li>Heavy walls and roofs increase seismic inertia.</li>
+<li>Large/irregular openings and plan irregularity create stress concentration.</li>
+<li>Out-of-plane wall failure and corner separation are common critical mechanisms.</li>
+</ul></div>
+<div class="kbox"><h3>Heritage-retrofit principle</h3><ul>
+<li>Preserve historic fabric.</li>
+<li>Use compatible materials.</li>
+<li>Prefer minimum necessary intervention.</li>
+<li>Strengthen connections and load path.</li>
+<li>Where possible, use reversible or less intrusive measures.</li>
+</ul></div>
+</div>
+
+<div class="note source-note"><strong>Nepal evidence</strong>The Government of Nepal retrofitting guideline identifies out-of-plane wall damage, in-plane shear cracking, corner damage, cracks at openings and weak wall intersections, and prescribes wall bands, vertical reinforcement, wall jacketing, diaphragm strengthening, through-elements and grouting. The Shital Niwas case identifies low-strength mud mortar, heavy walls/floors, long unsupported walls, flexible diaphragms, high opening ratio and missing earthquake-resistant features as major vulnerabilities.</div>
+
+<h3>Heritage-compatible retrofit methods in the supplied study set</h3>
+<ol>
+<li><b>Crack grouting / compatible repointing.</b> Restore continuity in cracked masonry without unnecessary reconstruction.</li>
+<li><b>Steel ties / bands.</b> Tie perpendicular walls and connect wall lines at floor/roof levels to reduce separation.</li>
+<li><b>Timber ring beams / diaphragm improvement.</b> Improve wall-to-floor/roof integration using material compatible with traditional construction where appropriate.</li>
+<li><b>Vertical ties / prestressing-type rods.</b> Improve wall integrity and compression/tie action when justified by assessment.</li>
+<li><b>Wall jacketing or mesh-based strengthening.</b> The Nepal guideline includes external mesh/band systems for low-strength masonry; selection depends on the heritage value of finishes and reversibility constraints.</li>
+<li><b>Local reconstruction of unstable masonry.</b> Where cracking/crushing is too severe for repair, carefully dismantle and rebuild the unsafe zone using compatible material.</li>
+<li><b>Specialized local strengthening.</b> The documented Shital Niwas intervention selected <b>steel plates and CFRP bands</b> after condition assessment and structural analysis.</li>
+</ol>
+
+<div class="diagram"><svg viewBox="0 0 980 375" aria-label="Heritage masonry retrofit sketch">
+<rect x="100" y="55" width="420" height="255" fill="#fffdf9" stroke="#8b6f47" stroke-width="3"/>
+<line x1="100" y1="125" x2="520" y2="125" stroke="#2457d6" stroke-width="12"/>
+<line x1="100" y1="270" x2="520" y2="270" stroke="#2457d6" stroke-width="12"/>
+<line x1="155" y1="55" x2="155" y2="310" stroke="#b42318" stroke-width="8"/><line x1="465" y1="55" x2="465" y2="310" stroke="#b42318" stroke-width="8"/>
+<rect x="245" y="160" width="125" height="150" fill="#f7f8fb" stroke="#667085" stroke-width="3"/>
+<text x="555" y="100" font-weight="900" fill="#2457d6">← horizontal tie / ring beam</text>
+<text x="555" y="155" font-weight="900" fill="#b42318">← vertical tie / rod</text>
+<text x="555" y="210" font-weight="900">← crack grout / repointing</text>
+<text x="555" y="265" font-weight="900">← diaphragm/wall connection</text>
+<text x="555" y="320" font-weight="900" fill="#6841c6">heritage rule: compatible + minimal</text>
+</svg><div class="caption"><span class="ribbon r-memory">Core idea</span> Heritage retrofit aims to create box action and restore continuity without unnecessarily destroying historic fabric.</div></div>
+
+<div class="exam-answer"><h3>Exam-ready conclusion</h3><p>Nepal masonry is vulnerable mainly because earthquake loads demand <b>tension, shear, diaphragm action and interconnection</b> from systems built primarily for gravity compression. Heritage retrofit therefore focuses on restoring continuity, tying walls/floors/roofs together and strengthening critical zones with compatible, minimally intrusive measures.</p></div>
+</div></section><section class="panel" style="margin:0 0 10px"><b>Final Examination — Q10</b><br><span class="tag">Hospital retrofit report</span><span class="tag">Kathmandu</span><span class="tag">IO target</span></section><section class="qcard" id="fin2-q10">
+<div class="qhead"><span class="qnum">10</span><h2>As a structural engineer, how would you prepare the final technical report for the seismic retrofitting of a hospital building located in Kathmandu?</h2><span class="marks">10 marks</span></div>
+<div class="qbody">
+<div class="blueprint"><div class="bp"><b>1 · Describe</b>Building + function</div><div class="bp"><b>2 · Assess</b>Site + structure + NDT</div><div class="bp"><b>3 · Design</b>Retrofit + drawings + BOQ</div><div class="bp"><b>4 · Verify</b>Performance + implementation</div></div>
+
+<div class="note source-note"><strong>Course-source structure</strong>`seismic_assessment_final.pdf` gives the hospital-report sequence: building description → site investigation → structural assessment → retrofit design → cost estimate → verification & monitoring, and identifies <b>Immediate Occupancy (IO)</b> as the target used in its study note because the hospital must function after an earthquake.</div>
+
+<h3>Recommended final technical-report structure</h3>
+<ol>
+<li><b>Executive summary.</b> Existing condition, principal deficiencies, selected retrofit, target performance and key recommendation.</li>
+<li><b>Building description.</b> Location, age, occupancy, hospital functions, structural system, number of storeys, construction history, alterations and available drawings.</li>
+<li><b>Site and seismic investigation.</b> Kathmandu site information, soil/geotechnical data available to the project, adopted earthquake hazard and applicable design/evaluation basis.</li>
+<li><b>Condition survey and testing.</b> Visual damage map, crack/deterioration record, material tests/NDT, reinforcement verification where available, and photographs.</li>
+<li><b>Existing structural model.</b> Modelling assumptions, member properties, load path, mass/stiffness representation and uncertainty statement.</li>
+<li><b>Seismic assessment results.</b> Modal response, DCR or component checks where applicable, pushover/time-history results, drift, hinge state, capacity/demand and identified failure mechanisms.</li>
+<li><b>Performance objective.</b> State the target level clearly. In the supplied course note, the hospital target is <b>IO</b> because post-earthquake functionality is critical.</li>
+<li><b>Retrofit alternatives.</b> Compare feasible local/global options such as member jacketing, FRP, shear walls, bracing or other justified interventions.</li>
+<li><b>Selected retrofit design.</b> Give design basis, member details, connections, foundations affected, drawings, construction sequence and specifications.</li>
+<li><b>Non-structural/functional considerations.</b> Record the items that can prevent hospital operation even if the main structure survives—equipment anchorage, partitions, ceilings, services and access—where assessed in the project.</li>
+<li><b>Cost and implementation.</b> BOQ, indicative cost, phasing, temporary works, hospital downtime/continuity constraints and construction schedule.</li>
+<li><b>Post-retrofit verification.</b> Reanalyse the retrofitted model and demonstrate improvement in capacity, drift and target performance.</li>
+<li><b>QA/QC and monitoring.</b> Material acceptance, site inspection hold points, as-built records and, where appropriate, post-retrofit monitoring.</li>
+<li><b>Conclusions and limitations.</b> State what is proven, what remains uncertain, and any restrictions on occupancy or future modification.</li>
+</ol>
+
+<div class="diagram"><svg viewBox="0 0 980 365" aria-label="Hospital retrofit technical report flow">
+<defs><marker id="h10" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2457d6"/></marker></defs>
+<rect x="25" y="125" width="135" height="80" rx="13" fill="#edf3ff" stroke="#2457d6"/><text x="92" y="155" text-anchor="middle" font-weight="900">BUILDING</text><text x="92" y="182" text-anchor="middle">+ hospital use</text>
+<line x1="160" y1="165" x2="215" y2="165" stroke="#2457d6" stroke-width="3" marker-end="url(#h10)"/>
+<rect x="225" y="125" width="135" height="80" rx="13" fill="#eaf9fc" stroke="#0f7890"/><text x="292" y="155" text-anchor="middle" font-weight="900">ASSESS</text><text x="292" y="182" text-anchor="middle">site + NDT + model</text>
+<line x1="360" y1="165" x2="415" y2="165" stroke="#2457d6" stroke-width="3" marker-end="url(#h10)"/>
+<rect x="425" y="115" width="145" height="100" rx="13" fill="#fff5df" stroke="#a76105"/><text x="497" y="148" text-anchor="middle" font-weight="900">TARGET</text><text x="497" y="176" text-anchor="middle">IO in course note</text><text x="497" y="200" text-anchor="middle">performance gap</text>
+<line x1="570" y1="165" x2="625" y2="165" stroke="#2457d6" stroke-width="3" marker-end="url(#h10)"/>
+<rect x="635" y="125" width="135" height="80" rx="13" fill="#f2efff" stroke="#6841c6"/><text x="702" y="155" text-anchor="middle" font-weight="900">DESIGN</text><text x="702" y="182" text-anchor="middle">retrofit + BOQ</text>
+<line x1="770" y1="165" x2="825" y2="165" stroke="#2457d6" stroke-width="3" marker-end="url(#h10)"/>
+<rect x="835" y="125" width="120" height="80" rx="13" fill="#eaf8f0" stroke="#16784c"/><text x="895" y="155" text-anchor="middle" font-weight="900">VERIFY</text><text x="895" y="182" text-anchor="middle">reanalyse + QA</text>
+</svg><div class="caption"><span class="ribbon r-memory">Report logic</span> A hospital retrofit report must connect evidence → performance gap → intervention → verified post-retrofit performance.</div></div>
+
+<div class="note clarify-note"><strong>Target-performance caution</strong>The supplied study note uses IO as the hospital target. This answer reports that course framing; it does not claim that one universal IO requirement applies identically to every hospital, hazard level and governing code without project-specific criteria.</div>
+<div class="exam-answer"><h3>Exam-ready conclusion</h3><p>The final report should be auditable: every retrofit recommendation must trace back to an observed or analytical deficiency, and every claimed improvement must be demonstrated by post-retrofit analysis, drawings/specifications and implementation/QA requirements.</p></div>
+</div></section>
+<section class="panel">
+  <h2>Master provenance note</h2>
+  <p>This master pack is assembled from the four approved STR 715 visual answer batches already produced under <b>CP-STR715-VIS-01</b>. The pack preserves the source-grounded rule: question wording is tied to the supplied 2025 exam paper, and answer content is grounded in the STR 715 answer book and the supporting course/source files already registered in the local index and Drive registry.</p>
+  <p><b>This file is a consolidation artifact.</b> It does not replace source registration, logs or prior version history; it simply makes the complete answer set easier to study.</p>
+</section>
+<div class="footer">STR 715 · Master Study Pack v1 · 2026-08-22 · 20-question complete coverage.</div>
+</div></body></html>

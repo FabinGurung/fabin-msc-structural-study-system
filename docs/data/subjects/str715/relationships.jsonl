@@ -1,0 +1,5 @@
+{"from": "STR715", "relation": "HAS_PUBLIC_ROUTE", "to": "/subjects/str715/", "status": "ACTIVE_ON_PUBLICATION"}
+{"from": "STR715", "relation": "USES_STUDY_PACK", "to": "STR715:2025:MASTER_20Q_V1", "status": "VERIFIED"}
+{"from": "STR715:2025:MASTER_20Q_V1", "relation": "COVERS_EXAM", "to": "STR715-2025-FALL-FINAL-INTERNAL", "status": "VERIFIED"}
+{"from": "STR715:2025:MASTER_20Q_V1", "relation": "COVERS_EXAM", "to": "STR715-2025-FALL-FINAL", "status": "VERIFIED"}
+{"from": "STR715:CURRICULUM_TITLE", "relation": "SOURCE_VARIANT_OF", "to": "STR715:WORKSPACE_TITLE", "status": "VERIFIED_DIFFERENT_WORDING"}

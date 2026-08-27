@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "course_id": "STR715",
+  "state": "EXAM_PRIORITY",
+  "academic_work_maturity": "MATURE_SOURCE_WORK",
+  "web_module_state": "STAGED_FOR_PUBLICATION",
+  "evidence": {
+    "questions": "20/20 COMPLETE",
+    "visual_answers": "20/20 COMPLETE",
+    "master_study_pack": "COMPLETE",
+    "source_processing": "COMPLETE"
+  },
+  "next_after_publication": [
+    "topic-level concept normalization",
+    "active quiz/grading mode",
+    "structured answer/figure/formula records when useful"
+  ]
+}

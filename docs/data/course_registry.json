@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "program": "Master of Science in Structural Engineering",
   "institution": "Pokhara University",
-  "release_status": "PUBLIC_SAFE_CP01",
+  "release_status": "PUBLIC_SAFE_CP02",
   "course_count": 35,
   "courses": [
     {
@@ -362,9 +362,14 @@
       "catalog_type": "elective_catalog_III_IV_V",
       "status": "PROTOTYPE_ACTIVE",
       "prototype": {
-        "status": "MODULE_PENDING",
+        "status": "LIVE_V1",
         "route": "subjects/str715/",
-        "maturity": "EXAM_PRIORITY_MATURE_SOURCE_WORK"
+        "maturity": "EXAM_PRIORITY_MATURE_SOURCE_WORK",
+        "coverage": {
+          "question_transcription": "20/20",
+          "visual_answers": "20/20",
+          "master_study_pack": "COMPLETE"
+        }
       },
       "title_variant_note": "Current STR715 workspace uses singular 'Assessment'; official curriculum scan uses plural 'Assessments'."
     },

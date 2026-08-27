@@ -1,0 +1,457 @@
+{
+  "schema_version": "1.0",
+  "course_code": "STR 715",
+  "title": "STR715 2025 Complete 20Q Master Study Pack",
+  "generated_at": "2026-08-22",
+  "control_point": "CP-STR715-VIS-01 v1.0",
+  "coverage": {
+    "final_internal_examination_questions": 10,
+    "final_examination_questions": 10,
+    "total_questions": 20
+  },
+  "artifacts": {
+    "master_html": "STR715_2025_COMPLETE_20Q_MASTER_STUDY_PACK_v1.html",
+    "master_pdf": "STR715_2025_COMPLETE_20Q_MASTER_STUDY_PACK_v1.pdf",
+    "master_log": "STR715_2025_COMPLETE_20Q_MASTER_STUDY_PACK_LOG_v1.md"
+  },
+  "questions": [
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q1–Q5",
+      "question_no": 1,
+      "anchor": "int1-q1",
+      "question_text": "Explain any two qualitative methods for seismic evaluation of structures.",
+      "cluster": "Assessment basics",
+      "topics": [
+        "Qualitative methods",
+        "RVS",
+        "Checklist screening"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q1–Q5",
+      "question_no": 2,
+      "anchor": "int1-q2",
+      "question_text": "Discuss any two analytical methods adopted for performance assessment of structures.",
+      "cluster": "Assessment basics",
+      "topics": [
+        "Analytical methods",
+        "Pushover",
+        "Inelastic time history"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q1–Q5",
+      "question_no": 3,
+      "anchor": "int1-q3",
+      "question_text": "Define DCR. What parameters are considered for assessment with DCR? Explain in details.",
+      "cluster": "Core definitions",
+      "topics": [
+        "DCR",
+        "Demand-to-capacity ratio"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q1–Q5",
+      "question_no": 4,
+      "anchor": "int1-q4",
+      "question_text": "How the seismic capacity and demand of the structure is assessed? Explain in details.",
+      "cluster": "Capacity-demand",
+      "topics": [
+        "Capacity vs demand",
+        "ADRS",
+        "Performance point"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q1–Q5",
+      "question_no": 5,
+      "anchor": "int1-q5",
+      "question_text": "What is performance point? Explain the globally adopted performance criteria to assess the building performance with relevant figure.",
+      "cluster": "Capacity-demand",
+      "topics": [
+        "Performance point",
+        "IO/LS/CP"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q6–Q10",
+      "question_no": 6,
+      "anchor": "int2-q6",
+      "question_text": "Write down the detailed procedure for bilinear idealization of capacity curve. Explain its importance.",
+      "cluster": "Capacity-demand",
+      "topics": [
+        "Bilinear idealization",
+        "Capacity curve",
+        "Ductility"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q6–Q10",
+      "question_no": 7,
+      "anchor": "int2-q7",
+      "question_text": "Explain step by step procedure in details for derivation of fragility curve.",
+      "cluster": "Fragility/vulnerability",
+      "topics": [
+        "Fragility curve",
+        "Damage states",
+        "PGA/ISDR"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q6–Q10",
+      "question_no": 8,
+      "anchor": "int2-q8",
+      "question_text": "Discuss the retrofit and repair materials.",
+      "cluster": "Retrofit measures",
+      "topics": [
+        "Repair materials",
+        "Retrofit materials"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q6–Q10",
+      "question_no": 9,
+      "anchor": "int2-q9",
+      "question_text": "Explain the local and global level retrofitting methods in details.",
+      "cluster": "Retrofit measures",
+      "topics": [
+        "Local retrofit",
+        "Global retrofit"
+      ]
+    },
+    {
+      "exam_name": "Final Internal Examination",
+      "batch_name": "Internal Q6–Q10",
+      "question_no": 10,
+      "anchor": "int2-q10",
+      "question_text": "Write down the detail retrofitting techniques applied after 2015 Gorkha earthquakes in Nepal for improving structural integrity of masonry and RC structures.",
+      "cluster": "Nepal applications",
+      "topics": [
+        "Post-Gorkha retrofit",
+        "Nepal masonry",
+        "RC retrofit"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q1–Q5",
+      "question_no": 1,
+      "anchor": "fin1-q1",
+      "question_text": "How are the equal displacement and equal energy rules applied in the performance assessment of structures? Describe with the help of necessary sketches.",
+      "cluster": "Capacity-demand",
+      "topics": [
+        "Equal displacement rule",
+        "Equal energy rule"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q1–Q5",
+      "question_no": 2,
+      "anchor": "fin1-q2",
+      "question_text": "Explain pushover analysis. Why is time history analysis considered superior to other static methods?",
+      "cluster": "Assessment basics",
+      "topics": [
+        "Pushover analysis",
+        "Time history analysis"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q1–Q5",
+      "question_no": 3,
+      "anchor": "fin1-q3",
+      "question_text": "What types of information can be extracted from the performance point? Why is the idealization of the capacity curve necessary for the seismic assessment of structures?",
+      "cluster": "Capacity-demand",
+      "topics": [
+        "Performance point outputs",
+        "Capacity idealization"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q1–Q5",
+      "question_no": 4,
+      "anchor": "fin1-q4",
+      "question_text": "Define fragility analysis. How are fragility curves derived empirically? Write down the detailed procedure with appropriate relationships/expressions.",
+      "cluster": "Fragility/vulnerability",
+      "topics": [
+        "Empirical fragility",
+        "Lognormal function"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q1–Q5",
+      "question_no": 5,
+      "anchor": "fin1-q5",
+      "question_text": "What types of information can be obtained from non-destructive testing (NDT)? Explain any two NDT methods with necessary sketches.",
+      "cluster": "Testing/monitoring",
+      "topics": [
+        "NDT",
+        "Rebound hammer",
+        "UPV"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q6–Q10",
+      "question_no": 6,
+      "anchor": "fin2-q6",
+      "question_text": "Define structural health monitoring (SHM). Describe the detailed procedure for the seismic assessment of historical structures using sensors.",
+      "cluster": "Testing/monitoring",
+      "topics": [
+        "SHM",
+        "Sensors",
+        "Historical structures"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q6–Q10",
+      "question_no": 7,
+      "anchor": "fin2-q7",
+      "question_text": "As a structural engineer, how would you assess the vulnerability of reinforced concrete structures located in Pokhara Valley?",
+      "cluster": "Nepal applications",
+      "topics": [
+        "Pokhara RC vulnerability",
+        "Field survey",
+        "Pushover"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q6–Q10",
+      "question_no": 8,
+      "anchor": "fin2-q8",
+      "question_text": "State the criteria for the repair and retrofitting of structures.",
+      "cluster": "Retrofit measures",
+      "topics": [
+        "Repair/retrofit criteria",
+        "Verification"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q6–Q10",
+      "question_no": 9,
+      "anchor": "fin2-q9",
+      "question_text": "Why are most masonry structures in Nepal vulnerable during earthquakes? Describe the retrofitting methods used for heritage structures.",
+      "cluster": "Nepal applications",
+      "topics": [
+        "Nepal masonry vulnerability",
+        "Heritage retrofit"
+      ]
+    },
+    {
+      "exam_name": "Final Examination",
+      "batch_name": "Final Q6–Q10",
+      "question_no": 10,
+      "anchor": "fin2-q10",
+      "question_text": "As a structural engineer, how would you prepare the final technical report for the seismic retrofitting of a hospital building located in Kathmandu?",
+      "cluster": "Professional reporting",
+      "topics": [
+        "Hospital retrofit report",
+        "Kathmandu",
+        "IO target"
+      ]
+    }
+  ],
+  "topic_index": {
+    "ADRS": [
+      "Final Internal Q4"
+    ],
+    "Analytical methods": [
+      "Final Internal Q2"
+    ],
+    "Bilinear idealization": [
+      "Final Internal Q6"
+    ],
+    "Capacity curve": [
+      "Final Internal Q6"
+    ],
+    "Capacity idealization": [
+      "Final Q3"
+    ],
+    "Capacity vs demand": [
+      "Final Internal Q4"
+    ],
+    "Checklist screening": [
+      "Final Internal Q1"
+    ],
+    "DCR": [
+      "Final Internal Q3"
+    ],
+    "Damage states": [
+      "Final Internal Q7"
+    ],
+    "Demand-to-capacity ratio": [
+      "Final Internal Q3"
+    ],
+    "Ductility": [
+      "Final Internal Q6"
+    ],
+    "Empirical fragility": [
+      "Final Q4"
+    ],
+    "Equal displacement rule": [
+      "Final Q1"
+    ],
+    "Equal energy rule": [
+      "Final Q1"
+    ],
+    "Field survey": [
+      "Final Q7"
+    ],
+    "Fragility curve": [
+      "Final Internal Q7"
+    ],
+    "Global retrofit": [
+      "Final Internal Q9"
+    ],
+    "Heritage retrofit": [
+      "Final Q9"
+    ],
+    "Historical structures": [
+      "Final Q6"
+    ],
+    "Hospital retrofit report": [
+      "Final Q10"
+    ],
+    "IO target": [
+      "Final Q10"
+    ],
+    "IO/LS/CP": [
+      "Final Internal Q5"
+    ],
+    "Inelastic time history": [
+      "Final Internal Q2"
+    ],
+    "Kathmandu": [
+      "Final Q10"
+    ],
+    "Local retrofit": [
+      "Final Internal Q9"
+    ],
+    "Lognormal function": [
+      "Final Q4"
+    ],
+    "NDT": [
+      "Final Q5"
+    ],
+    "Nepal masonry": [
+      "Final Internal Q10"
+    ],
+    "Nepal masonry vulnerability": [
+      "Final Q9"
+    ],
+    "PGA/ISDR": [
+      "Final Internal Q7"
+    ],
+    "Performance point": [
+      "Final Internal Q4",
+      "Final Internal Q5"
+    ],
+    "Performance point outputs": [
+      "Final Q3"
+    ],
+    "Pokhara RC vulnerability": [
+      "Final Q7"
+    ],
+    "Post-Gorkha retrofit": [
+      "Final Internal Q10"
+    ],
+    "Pushover": [
+      "Final Internal Q2",
+      "Final Q7"
+    ],
+    "Pushover analysis": [
+      "Final Q2"
+    ],
+    "Qualitative methods": [
+      "Final Internal Q1"
+    ],
+    "RC retrofit": [
+      "Final Internal Q10"
+    ],
+    "RVS": [
+      "Final Internal Q1"
+    ],
+    "Rebound hammer": [
+      "Final Q5"
+    ],
+    "Repair materials": [
+      "Final Internal Q8"
+    ],
+    "Repair/retrofit criteria": [
+      "Final Q8"
+    ],
+    "Retrofit materials": [
+      "Final Internal Q8"
+    ],
+    "SHM": [
+      "Final Q6"
+    ],
+    "Sensors": [
+      "Final Q6"
+    ],
+    "Time history analysis": [
+      "Final Q2"
+    ],
+    "UPV": [
+      "Final Q5"
+    ],
+    "Verification": [
+      "Final Q8"
+    ]
+  },
+  "cluster_index": {
+    "Assessment basics": [
+      "Final Internal Q1",
+      "Final Internal Q2",
+      "Final Q2"
+    ],
+    "Capacity-demand": [
+      "Final Internal Q4",
+      "Final Internal Q5",
+      "Final Internal Q6",
+      "Final Q1",
+      "Final Q3"
+    ],
+    "Core definitions": [
+      "Final Internal Q3"
+    ],
+    "Fragility/vulnerability": [
+      "Final Internal Q7",
+      "Final Q4"
+    ],
+    "Nepal applications": [
+      "Final Internal Q10",
+      "Final Q7",
+      "Final Q9"
+    ],
+    "Professional reporting": [
+      "Final Q10"
+    ],
+    "Retrofit measures": [
+      "Final Internal Q8",
+      "Final Internal Q9",
+      "Final Q8"
+    ],
+    "Testing/monitoring": [
+      "Final Q5",
+      "Final Q6"
+    ]
+  },
+  "public_route": "/subjects/str715/",
+  "source_evidence_location": "PRIVATE_GOVERNED_GOOGLE_DRIVE"
+}

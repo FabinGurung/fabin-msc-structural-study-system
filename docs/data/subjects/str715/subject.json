@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "course_id": "STR715",
+  "course_code": "STR 715",
+  "curriculum_title": "Seismic Assessments and Retrofitting of Structures",
+  "workspace_title": "Seismic Assessment and Retrofitting of Structures",
+  "title_variant_status": "VERIFIED_DIFFERENT_WORDING",
+  "program": "MSc Structural Engineering",
+  "institution": "Pokhara University",
+  "semester_eligibility": [
+    3
+  ],
+  "catalog_type": "elective_catalog_III_IV_V",
+  "status": "EXAM_PRIORITY",
+  "public_route": "/subjects/str715/",
+  "existing_work_admitted_not_regenerated": true,
+  "coverage": {
+    "exam_source_processing": "COMPLETE",
+    "question_transcription": {
+      "complete": 20,
+      "total": 20
+    },
+    "visual_answers": {
+      "complete": 20,
+      "total": 20
+    },
+    "master_study_pack": "COMPLETE"
+  },
+  "source_policy": {
+    "printed_page_1_heading": "FINAL INTERNAL EXAMINATION",
+    "printed_page_2_heading": "FINAL EXAMINATION",
+    "do_not_relabel_page_2_as_external": true,
+    "source_evidence_location": "PRIVATE_GOVERNED_GOOGLE_DRIVE",
+    "private_drive_ids_published": false
+  },
+  "study_pack": {
+    "release_id": "STR715:2025:MASTER_20Q_V1",
+    "route": "/subjects/str715/",
+    "visual_answer_standard": "CP-STR715-VIS-01 v1.0"
+  }
+}
