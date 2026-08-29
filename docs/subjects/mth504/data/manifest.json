@@ -1,0 +1,41 @@
+{
+  "release_id": "MTH504-MASTER-179-GITHUB-PAGES-PUBLIC-v1.0",
+  "target_repository": "FabinGurung/fabin-msc-structural-study-system",
+  "target_base_branch": "nma-question-ingestion-v0.1",
+  "target_publication_branch": "mth504-master-179-publication-v1.0",
+  "target_path": "docs/subjects/mth504/",
+  "source_master_html_sha256": "fa06228b767e00337cff6ec111b1fb81514ab99c199aeda36690ec0ae80db654",
+  "source_master_json_sha256": "3913f57f447d14affdc26de4bd8f405d0aa331c8b65706101ca8e92e1a8c71b6",
+  "public_data_sha256": "78b88a78ff1063f7442e62c3d91a92a28f2e932375fb859222dacaa4fbb77fef",
+  "counts": {
+    "questions": 179,
+    "occurrences": 228,
+    "visualizations": 179,
+    "units": 7,
+    "topics": 52
+  },
+  "publication_policy": {
+    "public_safe": true,
+    "private_drive_bindings_removed": true,
+    "raw_sources_included": false,
+    "browser_solver_authority": false
+  },
+  "files": {
+    "docs/subjects/mth504/assets/css/app.css": {
+      "sha256": "6d268748fa8beea21ab44402b40fcbffad0dfb1e938301131ee12eb013d11a25",
+      "bytes": 8010
+    },
+    "docs/subjects/mth504/assets/js/app.js": {
+      "sha256": "7aa23cebf1aa0722c3347b28d82d3714e3dd390b992819966a4e4a76a9609121",
+      "bytes": 33608
+    },
+    "docs/subjects/mth504/data/mth504_master_179_public_v1.0.json": {
+      "sha256": "78b88a78ff1063f7442e62c3d91a92a28f2e932375fb859222dacaa4fbb77fef",
+      "bytes": 1660102
+    },
+    "docs/subjects/mth504/index.html": {
+      "sha256": "45b634b7501064357f0ca908676f8ea3723a449d648a41c9f7b5ef8f8af1b747",
+      "bytes": 3068
+    }
+  }
+}
