@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0",
+  "program": "Master of Science in Structural Engineering",
+  "institution": "Pokhara University",
+  "release_status": "PUBLIC_SAFE_CP02",
+  "course_count": 35,
+  "courses": [
+    {
+      "course_id": "STR501",
+      "course_code": "STR 501",
+      "curriculum_title": "Advanced Structural Analysis",
+      "semester": 1,
+      "credit_hours": 4,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR502",
+      "course_code": "STR 502",
+      "curriculum_title": "Dynamics of Structures",
+      "semester": 1,
+      "credit_hours": 3,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR503",
+      "course_code": "STR 503",
+      "curriculum_title": "Solid Mechanics",
+      "semester": 1,
+      "credit_hours": 3,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "MTH504",
+      "course_code": "MTH 504",
+      "curriculum_title": "Numerical Methods and Analysis",
+      "semester": 1,
+      "credit_hours": 3,
+      "catalog_type": "core",
+      "status": "LIVE_RELEASED",
+      "prototype": {
+        "status": "LIVE_V1_0_0",
+        "route": "subjects/mth504/",
+        "maturity": "MASTER_179_RELEASED_SOURCE_LOCKED",
+        "release": {
+          "tag": "mth504-v1.0.0",
+          "questions": 179,
+          "occurrences": 228,
+          "visualizations": 179,
+          "units": 7
+        },
+        "next_candidate": "v1.1.0 study-UX foundation"
+      }
+    },
+    {
+      "course_id": "GTH505",
+      "course_code": "GTH 505",
+      "curriculum_title": "Foundation Analysis and Design",
+      "semester": 1,
+      "credit_hours": 4,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR506",
+      "course_code": "STR 506",
+      "curriculum_title": "Finite Element Method",
+      "semester": 2,
+      "credit_hours": 3,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR507",
+      "course_code": "STR 507",
+      "curriculum_title": "Earthquake Resistant Design",
+      "semester": 2,
+      "credit_hours": 3,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "ACT508",
+      "course_code": "ACT 508",
+      "curriculum_title": "Advanced Concrete Technology",
+      "semester": 2,
+      "credit_hours": 3,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR509",
+      "course_code": "STR 509",
+      "curriculum_title": "Advanced Structural Design",
+      "semester": 3,
+      "credit_hours": 4,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR510",
+      "course_code": "STR 510",
+      "curriculum_title": "Structural Engineering Laboratory",
+      "semester": 3,
+      "credit_hours": 3,
+      "catalog_type": "core",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR511",
+      "course_code": "STR 511",
+      "curriculum_title": "Thesis",
+      "semester": 4,
+      "credit_hours": 12,
+      "catalog_type": "thesis",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR601",
+      "course_code": "STR 601",
+      "curriculum_title": "Applied Seismology",
+      "semester_eligibility": [
+        2
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_I_II",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR602",
+      "course_code": "STR 602",
+      "curriculum_title": "Rock Mechanics",
+      "semester_eligibility": [
+        2
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_I_II",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR603",
+      "course_code": "STR 603",
+      "curriculum_title": "Theory of Plates and Shells",
+      "semester_eligibility": [
+        2
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_I_II",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "CAD604",
+      "course_code": "CAD 604",
+      "curriculum_title": "Computer Added Design",
+      "semester_eligibility": [
+        2
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_I_II",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "MSE605",
+      "course_code": "MSE 605",
+      "curriculum_title": "Research Methodology",
+      "semester_eligibility": [
+        2
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_I_II",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "SHA606",
+      "course_code": "SHA 606",
+      "curriculum_title": "Seismic Hazard Analysis",
+      "semester_eligibility": [
+        2
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_I_II",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "DSM607",
+      "course_code": "DSM 607",
+      "curriculum_title": "Disaster Management",
+      "semester_eligibility": [
+        2
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_I_II",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR701",
+      "course_code": "STR 701",
+      "curriculum_title": "Bridge Analysis and Design",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "MSE702",
+      "course_code": "MSE 702",
+      "curriculum_title": "Pre-Stressed Concrete",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "MSE703",
+      "course_code": "MSE 703",
+      "curriculum_title": "Design of Industrial structure",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "HYD704",
+      "course_code": "HYD 704",
+      "curriculum_title": "Hydraulic Structures",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "MSE705",
+      "course_code": "MSE 705",
+      "curriculum_title": "Design of high rise building",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "MSE706",
+      "course_code": "MSE 706",
+      "curriculum_title": "Geotechnical Earthquake Engineering",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR707",
+      "course_code": "STR 707",
+      "curriculum_title": "Design of Thin Shell Structure",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR708",
+      "course_code": "STR 708",
+      "curriculum_title": "Design of Masonry Structures",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR713",
+      "course_code": "STR 713",
+      "curriculum_title": "Non-Linear Analysis of Structures",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR710",
+      "course_code": "STR 710",
+      "curriculum_title": "Fracture Mechanics of Concrete",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR711",
+      "course_code": "STR 711",
+      "curriculum_title": "Health Monitoring of Structures",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR712",
+      "course_code": "STR 712",
+      "curriculum_title": "Advanced Design of Steel Structures",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR717",
+      "course_code": "STR 717",
+      "curriculum_title": "Tunnel Engineering",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR714",
+      "course_code": "STR 714",
+      "curriculum_title": "Optimization in Structural Design",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR709",
+      "course_code": "STR 709",
+      "curriculum_title": "Repair and Rehabilitation of Structures",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    },
+    {
+      "course_id": "STR715",
+      "course_code": "STR 715",
+      "curriculum_title": "Seismic Assessments and Retrofitting of Structures",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "PROTOTYPE_ACTIVE",
+      "prototype": {
+        "status": "LIVE_V1",
+        "route": "subjects/str715/",
+        "maturity": "EXAM_PRIORITY_MATURE_SOURCE_WORK",
+        "coverage": {
+          "question_transcription": "20/20",
+          "visual_answers": "20/20",
+          "master_study_pack": "COMPLETE"
+        }
+      },
+      "title_variant_note": "Current STR715 workspace uses singular 'Assessment'; official curriculum scan uses plural 'Assessments'."
+    },
+    {
+      "course_id": "SRA716",
+      "course_code": "SRA 716",
+      "curriculum_title": "Seismic Risk Analysis",
+      "semester_eligibility": [
+        3
+      ],
+      "credit_hours": 3,
+      "catalog_type": "elective_catalog_III_IV_V",
+      "status": "REGISTERED"
+    }
+  ]
+}
