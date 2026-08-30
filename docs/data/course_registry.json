@@ -39,11 +39,19 @@
       "semester": 1,
       "credit_hours": 3,
       "catalog_type": "core",
-      "status": "PROTOTYPE_ACTIVE",
+      "status": "LIVE_RELEASED",
       "prototype": {
-        "status": "LIVE_V0_1",
+        "status": "LIVE_V1_0_0",
         "route": "subjects/mth504/",
-        "maturity": "EXAM_PRIORITY_PROTOTYPE"
+        "maturity": "MASTER_179_RELEASED_SOURCE_LOCKED",
+        "release": {
+          "tag": "mth504-v1.0.0",
+          "questions": 179,
+          "occurrences": 228,
+          "visualizations": 179,
+          "units": 7
+        },
+        "next_candidate": "v1.1.0 study-UX foundation"
       }
     },
     {
