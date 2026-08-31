@@ -41,17 +41,17 @@
       "catalog_type": "core",
       "status": "LIVE_RELEASED",
       "prototype": {
-        "status": "LIVE_V1_0_0",
+        "status": "LIVE_V1_1_0",
         "route": "subjects/mth504/",
-        "maturity": "MASTER_179_RELEASED_SOURCE_LOCKED",
+        "maturity": "MASTER_179_STUDY_UX_FOUNDATION_RELEASED_SOURCE_LOCKED",
         "release": {
-          "tag": "mth504-v1.0.0",
+          "tag": "mth504-v1.1.0",
           "questions": 179,
           "occurrences": 228,
           "visualizations": 179,
-          "units": 7
-        },
-        "next_candidate": "v1.1.0 study-UX foundation"
+          "units": 7,
+          "study_ux": "Study Map + backlinks + tag index + local retrieval"
+        }
       }
     },
     {
