@@ -1,8 +1,8 @@
 .loading-card,.empty-card,.panel-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
 .library-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:12px}
-.question-list-card{display:grid;gap:10px;border:1px solid var(--border);background:var(--surface);border-radius:var(--radius);padding:15px;text-align:left;box-shadow:0 4px 18px rgba(25,31,40,.04)}
+.question-list-card{display:grid;gap:10px;min-width:0;max-width:100%;border:1px solid var(--border);background:var(--surface);border-radius:var(--radius);padding:15px;text-align:left;box-shadow:0 4px 18px rgba(25,31,40,.04)}
 .question-list-card:hover{border-color:var(--blue);transform:translateY(-1px)}
-.card-top{display:flex;justify-content:space-between;gap:8px;align-items:start}.card-title{font-weight:720;line-height:1.35}.card-meta{font-size:12px;color:var(--muted)}
+.card-top{display:flex;justify-content:space-between;gap:8px;align-items:start;min-width:0}.card-title{font-weight:720;line-height:1.35;min-width:0;overflow-wrap:anywhere}.card-meta{font-size:12px;color:var(--muted);min-width:0;overflow-wrap:anywhere}
 .badge{display:inline-flex;align-items:center;gap:5px;width:max-content;border:1px solid currentColor;border-radius:999px;padding:3px 7px;font-size:11px;font-weight:800}
 .badge.standard{color:var(--green);background:var(--green-bg)}.badge.limit{color:var(--amber);background:var(--amber-bg)}.badge.conflict{color:var(--red);background:var(--red-bg)}.badge.quiet{color:var(--muted);background:var(--surface-3)}
 .callout{border-left:5px solid var(--blue);background:var(--blue-bg);border-radius:10px;padding:12px 14px;margin:12px 0}.callout strong{display:block;margin-bottom:3px}
