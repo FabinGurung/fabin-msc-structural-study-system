@@ -1,0 +1,30 @@
+:root{
+  --font-ui: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-reading: "Source Serif 4", Georgia, Cambria, "Times New Roman", serif;
+  --font-math: "STIX Two Math", "Cambria Math", Cambria, serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  --bg:#f7f5ef; --surface:#ffffff; --surface-2:#fbfaf7; --surface-3:#f0eee8;
+  --text:#172033; --muted:#657087; --border:#dcd8cf; --shadow:0 10px 30px rgba(24,31,44,.08);
+  --blue:#175ea8; --blue-bg:#eaf3ff; --green:#18754d; --green-bg:#eaf8f1;
+  --amber:#8a5a00; --amber-bg:#fff6df; --red:#a23434; --red-bg:#fff0ef;
+  --purple:#6b49a8; --purple-bg:#f4efff; --teal:#087477; --teal-bg:#e9f8f7;
+  --focus:#0b68d5;
+  --radius-sm:8px; --radius:14px; --radius-lg:22px;
+  --reading-width:78ch;
+}
+html[data-theme="dark"]{
+  --bg:#0c1118; --surface:#121a24; --surface-2:#17212d; --surface-3:#202b38;
+  --text:#edf2f8; --muted:#a7b1c1; --border:#334153; --shadow:0 10px 35px rgba(0,0,0,.24);
+  --blue:#85bcff; --blue-bg:#122844; --green:#79d7aa; --green-bg:#112b22;
+  --amber:#ffd27a; --amber-bg:#302711; --red:#ff9a98; --red-bg:#341a1a;
+  --purple:#c6a8ff; --purple-bg:#281d42; --teal:#74d5d1; --teal-bg:#102d2e;
+  --focus:#88c0ff;
+}
+html[data-contrast="high"]{--border:currentColor;--muted:var(--text)}
+html[data-semantic-color="off"]{
+  --blue:var(--text);--green:var(--text);--amber:var(--text);--red:var(--text);
+  --purple:var(--text);--teal:var(--text);
+  --blue-bg:var(--surface-3);--green-bg:var(--surface-3);--amber-bg:var(--surface-3);
+  --red-bg:var(--surface-3);--purple-bg:var(--surface-3);--teal-bg:var(--surface-3);
+}

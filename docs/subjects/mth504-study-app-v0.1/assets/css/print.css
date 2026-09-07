@@ -1,0 +1,8 @@
+@media print{
+  :root{--bg:#fff;--surface:#fff;--surface-2:#fff;--surface-3:#f4f4f4;--text:#000;--muted:#333;--border:#999}
+  .app-header,.sidebar,.dashboard,.study-tabs,.question-tools,.source-warning{display:none!important}
+  .app-grid{display:block}.question-shell{border:0;box-shadow:none}.tab-panel{display:block!important;padding:0}
+  [data-panel="audit"],[data-panel="recall"]{display:none!important}
+  body{background:#fff;color:#000;font-size:11pt}.answer-text{max-width:none}.study-figure{break-inside:avoid}
+  a{color:#000;text-decoration:none}
+}

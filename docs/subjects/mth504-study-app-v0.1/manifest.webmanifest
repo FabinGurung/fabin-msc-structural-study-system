@@ -1,0 +1,18 @@
+{
+  "name": "MTH504 Numerical Methods Study System",
+  "short_name": "MTH504",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#f7f5ef",
+  "description": "Student-first MTH504 study shell with local retrieval practice.",
+  "icons": [
+    {
+      "src": "./assets/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

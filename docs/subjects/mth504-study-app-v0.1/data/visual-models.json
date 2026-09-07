@@ -1,0 +1,1618 @@
+{
+  "schema_version": "1.0",
+  "status": "DERIVED_PRESENTATION_METADATA / NONAUTHORITATIVE",
+  "note": "Every question receives a study figure. Quantitative plots are rendered only when governed question-specific numeric visual metadata exists. Otherwise the app renders a clearly labeled structural schematic derived from the question/answer wording; it must not be interpreted as source data.",
+  "questions": [
+    {
+      "id": "NMA-Q-0001",
+      "type": "error-analysis",
+      "title": "Error relationship",
+      "description": "Reference value, approximation, absolute discrepancy and normalized error.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0002",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0003",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0004",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0005",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0006",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0007",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0008",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0009",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0010",
+      "type": "error-analysis",
+      "title": "Error relationship",
+      "description": "Reference value, approximation, absolute discrepancy and normalized error.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0011",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0012",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0013",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0014",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0015",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0016",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0017",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0018",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0019",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0020",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0021",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0022",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0023",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0024",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0025",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0026",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0027",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0028",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0029",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0030",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0031",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0032",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0033",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0034",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0035",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0036",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0037",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0038",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0039",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0040",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0041",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0042",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0043",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0044",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0045",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0046",
+      "type": "interpolation",
+      "title": "Interpolation structure",
+      "description": "Known data nodes, target abscissa and interpolating path.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0047",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0048",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0049",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0050",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0051",
+      "type": "interpolation",
+      "title": "Interpolation structure",
+      "description": "Known data nodes, target abscissa and interpolating path.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0052",
+      "type": "interpolation",
+      "title": "Interpolation structure",
+      "description": "Known data nodes, target abscissa and interpolating path.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0053",
+      "type": "curve-fitting",
+      "title": "Data-to-model relationship",
+      "description": "Observed points, fitted relation and residual interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0054",
+      "type": "curve-fitting",
+      "title": "Data-to-model relationship",
+      "description": "Observed points, fitted relation and residual interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0055",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0056",
+      "type": "error-analysis",
+      "title": "Error relationship",
+      "description": "Reference value, approximation, absolute discrepancy and normalized error.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0057",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0058",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0059",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0060",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0061",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0062",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0063",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0064",
+      "type": "interpolation",
+      "title": "Interpolation structure",
+      "description": "Known data nodes, target abscissa and interpolating path.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0065",
+      "type": "interpolation",
+      "title": "Interpolation structure",
+      "description": "Known data nodes, target abscissa and interpolating path.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0066",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0067",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0068",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0069",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0070",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0071",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0072",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0073",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0074",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0075",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0076",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0077",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0078",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0079",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0080",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0081",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0082",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0083",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0084",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0085",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0086",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0087",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0088",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0089",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0090",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0091",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0092",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0093",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0094",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0095",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0096",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0097",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0098",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0099",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0100",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0101",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0102",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0103",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0104",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0105",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0106",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0107",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0108",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0109",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0110",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0111",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0112",
+      "type": "eigen",
+      "title": "Eigen-iteration flow",
+      "description": "Trial vector → matrix action → normalization → eigenvalue/vector convergence.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0113",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0114",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0115",
+      "type": "eigen",
+      "title": "Eigen-iteration flow",
+      "description": "Trial vector → matrix action → normalization → eigenvalue/vector convergence.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0116",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0117",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0118",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0119",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0120",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0121",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0122",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0123",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0124",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0125",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0126",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0127",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0128",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0129",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0130",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0131",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0132",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0133",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0134",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0135",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0136",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0137",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0138",
+      "type": "error-analysis",
+      "title": "Error relationship",
+      "description": "Reference value, approximation, absolute discrepancy and normalized error.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0139",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0140",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0141",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0142",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0143",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0144",
+      "type": "root-finding",
+      "title": "Root-finding geometry",
+      "description": "Function curve, target axis, bracket/iterate path and accepted-root marker.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0145",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0146",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0147",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0148",
+      "type": "integration",
+      "title": "Quadrature structure",
+      "description": "Function curve, interval, numerical panels/nodes and area interpretation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0149",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0150",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0151",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0152",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0153",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0154",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0155",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0156",
+      "type": "interpolation",
+      "title": "Interpolation structure",
+      "description": "Known data nodes, target abscissa and interpolating path.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0157",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0158",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0159",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0160",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0161",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0162",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0163",
+      "type": "pde",
+      "title": "PDE mesh/stencil",
+      "description": "Grid neighborhood, stencil relation and field-value update.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0164",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0165",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0166",
+      "type": "linear-system",
+      "title": "Linear-system workflow",
+      "description": "Matrix/system → pivot or iteration step → updated solution → residual check.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0167",
+      "type": "ode",
+      "title": "ODE stepping diagram",
+      "description": "Current state, slope/stage information and next numerical state.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0168",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0169",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0170",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0171",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0172",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0173",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0174",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0175",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0176",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0177",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    },
+    {
+      "id": "NMA-Q-0178",
+      "type": "differentiation",
+      "title": "Finite-difference stencil",
+      "description": "Sample nodes around the target and the derivative approximation relation.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": true
+    },
+    {
+      "id": "NMA-Q-0179",
+      "type": "concept-map",
+      "title": "Concept relationship map",
+      "description": "Question → key method/idea → mathematical action → check → exam answer.",
+      "quantitative": false,
+      "authority": "DERIVED_STUDY_SCHEMATIC",
+      "needs_question_specific_plot_authoring": false
+    }
+  ]
+}
