@@ -1,0 +1,26 @@
+{
+  "artifact": "MTH504_STUDY_APP_SHELL",
+  "version": "0.1.0",
+  "status": "DRIVE_FROZEN_SOURCE_CANDIDATE / NOT_GITHUB_PUSHED / NOT_LIVE",
+  "academic_content_policy": "REUSE_EXACT_EXISTING_179_ENRICHMENT_RECORDS; DO_NOT_REHARVEST",
+  "derived_from": {
+    "beta1_branch": "mth504-v1.2-beta",
+    "beta1_release_commit": "d88aa14044f4ce3e095f891022c32ee74b8f386f",
+    "beta1_tag": "mth504-v1.2.0-beta.1",
+    "enrichment_sha256": "e3707fd0f43f3951a05d0ce6dd5239c189af1281e8dcacb2452ca79a96b97ade"
+  },
+  "ux_defaults": {
+    "theme": "light",
+    "dark_optional": true,
+    "audit_collapsed": true,
+    "semantic_color": true,
+    "retrieval_state": "LOCAL_BROWSER_ONLY",
+    "figure_rule": "EVERY_QUESTION_HAS_STUDY_FIGURE; STRUCTURAL_SCHEMATIC_WHEN_QUANTITATIVE_METADATA_IS_NOT_GOVERNED"
+  },
+  "public_safety": {
+    "private_drive_ids_in_runtime_files": false,
+    "raw_source_binaries": false,
+    "credentials": false
+  },
+  "next_gate": "NEW_GITHUB_WORKING_BRANCH_VIA_GOVERNED_COLAB_WRITER_THEN_INDEPENDENT_READBACK"
+}

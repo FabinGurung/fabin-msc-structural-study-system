@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 var(--font-ui)}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--blue)}
+img,svg{max-width:100%}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.skip-link{position:fixed;left:12px;top:-60px;z-index:999;background:var(--surface);padding:10px 14px;border-radius:8px}
+.skip-link:focus{top:12px}
+h1,h2,h3{line-height:1.2;letter-spacing:-.01em}
+p{margin:.65em 0}
+code,.qid{font-family:var(--font-mono)}
+hr{border:0;border-top:1px solid var(--border)}
+[hidden]{display:none!important}

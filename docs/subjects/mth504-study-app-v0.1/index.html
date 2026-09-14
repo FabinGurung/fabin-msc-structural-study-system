@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="MTH504 Numerical Methods — student-first study shell">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f5ef">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icons/app-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/tokens.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/study.css">
+  <link rel="stylesheet" href="./assets/css/print.css" media="print">
+  <title>MTH504 Study System · UX redesign shell</title>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to study content</a>
+
+<header class="app-header">
+  <div class="brand">
+    <img src="./assets/icons/app-icon.svg" alt="" width="36" height="36">
+    <div>
+      <strong>MTH504 Study System</strong>
+      <small>Numerical Methods & Analysis · derived UX redesign shell</small>
+    </div>
+  </div>
+  <div class="header-actions">
+    <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle light/dark theme">◐</button>
+    <button class="icon-button" id="contrastToggle" type="button" aria-label="Toggle high contrast">◑</button>
+    <button class="icon-button" id="colorToggle" type="button" aria-label="Toggle semantic color">◒</button>
+  </div>
+</header>
+
+<div class="app-grid">
+  <aside class="sidebar" aria-label="Study navigation">
+    <nav class="primary-nav">
+      <button data-view="library" class="nav-button active" type="button">☰ <span>Library</span></button>
+      <button data-view="review" class="nav-button" type="button">↻ <span>Review queue</span></button>
+      <button data-view="map" class="nav-button" type="button">⌘ <span>Study map</span></button>
+    </nav>
+
+    <div class="filters">
+      <label class="field">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="ID, method, wording…" autocomplete="off">
+      </label>
+      <label class="field">
+        <span>Classification</span>
+        <select id="classFilter">
+          <option value="">All</option>
+          <option value="STANDARD">Standard</option>
+          <option value="SOURCE_LIMITED">Source limited</option>
+          <option value="SOURCE_CONFLICT">Source conflict</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Visual family</span>
+        <select id="visualFilter">
+          <option value="">All</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="sidebar-meta">
+      <span id="resultCount">Loading…</span>
+      <button id="clearLocal" class="text-button" type="button">Reset local study state</button>
+    </div>
+  </aside>
+
+  <main id="main" tabindex="-1">
+    <section id="dashboard" class="dashboard" aria-label="Study dashboard">
+      <article class="metric"><span>Questions</span><strong id="metricQuestions">179</strong></article>
+      <article class="metric"><span>Due locally</span><strong id="metricDue">0</strong></article>
+      <article class="metric"><span>Starred</span><strong id="metricStarred">0</strong></article>
+      <article class="metric"><span>Studied</span><strong id="metricStudied">0</strong></article>
+    </section>
+
+    <section id="viewHost" aria-live="polite">
+      <div class="loading-card">Loading governed MTH504 data…</div>
+    </section>
+  </main>
+</div>
+
+<template id="questionTemplate">
+  <article class="question-shell">
+    <header class="question-hero">
+      <div class="question-kicker">
+        <span class="qid"></span>
+        <span class="classification badge"></span>
+        <span class="study-state badge quiet"></span>
+      </div>
+      <h1 class="question-title"></h1>
+      <div class="question-tools">
+        <button class="star-button" type="button" aria-label="Star question">☆ Star</button>
+        <button class="recall-button" type="button">Start recall</button>
+        <a class="feedback-button" target="_blank" rel="noopener">Report issue</a>
+      </div>
+    </header>
+
+    <div class="source-warning" hidden></div>
+
+    <nav class="study-tabs" aria-label="Question views">
+      <button data-tab="study" class="active" type="button">Study</button>
+      <button data-tab="worked" type="button">Worked</button>
+      <button data-tab="visual" type="button">Visual</button>
+      <button data-tab="exam" type="button">Exam answer</button>
+      <button data-tab="recall" type="button">Recall</button>
+      <button data-tab="audit" type="button">Audit</button>
+    </nav>
+
+    <section class="tab-panel" data-panel="study"></section>
+    <section class="tab-panel" data-panel="worked" hidden></section>
+    <section class="tab-panel" data-panel="visual" hidden></section>
+    <section class="tab-panel" data-panel="exam" hidden></section>
+    <section class="tab-panel" data-panel="recall" hidden></section>
+    <section class="tab-panel" data-panel="audit" hidden></section>
+  </article>
+</template>
+
+<script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>
